@@ -13,13 +13,13 @@ interface SEOProps {
 }
 
 const SEO: React.FC<SEOProps> = ({
-  title = "Gravity Team | Створення сучасних сайтів для вашого бізнесу",
-  description = "Професійна веб-студія Gravity Team створює ефективні сайти: інтернет-магазини, освітні платформи, лендінги. Знижка 50% на всі послуги!",
+  title = "AI Lab | Створення сучасних сайтів для вашого бізнесу",
+  description = "Професійна веб-студія AI Lab створює ефективні сайти: інтернет-магазини, освітні платформи, лендінги. Знижка 50% на всі послуги!",
   keywords = "створення сайтів, веб-розробка, інтернет-магазин, лендінг, дизайн, Україна, веб-студія",
   image = "https://lovable.dev/opengraph-image-p98pqg.png",
   url = "https://gravity-team.ua/",
   type = "website",
-  author = "Gravity Team"
+  author = "AI Lab"
 }) => {
   return (
     <Helmet>

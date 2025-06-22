@@ -31,7 +31,7 @@ const translations = {
     heroButton: 'Почати проєкт',
 
     // About Section
-    aboutTitle: 'Про компанію Gravity Team',
+    aboutTitle: 'Про компанію AI Lab',
     aboutDescription: 'Ми — команда професіоналів з понад 5-річним досвідом у веб-розробці. Створюємо якісні рішення для бізнесу будь-якого масштабу.',
     aboutStat1: '200+',
     aboutStat1Label: 'Завершених проєктів',
@@ -226,16 +226,16 @@ const translations = {
     // Testimonials
     testimonialsTitle: 'Відгуки клієнтів',
     testimonialsSubtitle: 'Що говорять наші клієнти про роботу з нами',
-    testimonial1Text: 'Gravity Team воістину професіонали: упродовж місяця створили для нас повноцінний інтернет-магазин, інтегрували CMS і платіжні системи. Результат — +40% продажів уже за перший квартал.',
+    testimonial1Text: 'AI Lab воістину професіонали: упродовж місяця створили для нас повноцінний інтернет-магазин, інтегрували CMS і платіжні системи. Результат — +40% продажів уже за перший квартал.',
     testimonial1Name: 'Ірина Петренко',
     testimonial1Position: 'CEO Fashion.ua',
-    testimonial2Text: 'Завдяки команді Gravity Team наш стартап отримав сучасний лендінг з адаптивним дизайном. Конверсія виросла на 65%, а час завантаження скоротився втричі.',
+    testimonial2Text: 'Завдяки команді AI Lab наш стартап отримав сучасний лендінг з адаптивним дизайном. Конверсія виросла на 65%, а час завантаження скоротився втричі.',
     testimonial2Name: 'Максим Коваленко',
     testimonial2Position: 'Засновник TechStart',
-    testimonial3Text: 'Найкраща команда для розробки корпоративних сайтів! Gravity Team створили для нас багатомовний портал з CMS, що дозволило збільшити клієнтську базу на 80%.',
+    testimonial3Text: 'Найкраща команда для розробки корпоративних сайтів! AI Lab створили для нас багатомовний портал з CMS, що дозволило збільшити клієнтську базу на 80%.',
     testimonial3Name: 'Олена Сидорова',
     testimonial3Position: 'Маркетинг-директор GlobalCorp',
-    testimonial4Text: 'Замовляли у Gravity Team редизайн нашого ресторанного сайту. Отримали сучасний дизайн з онлайн-бронюванням столиків. Кількість бронювань зросла на 120%!',
+    testimonial4Text: 'Замовляли у AI Lab редизайн нашого ресторанного сайту. Отримали сучасний дизайн з онлайн-бронюванням столиків. Кількість бронювань зросла на 120%!',
     testimonial4Name: 'Андрій Мельник',
     testimonial4Position: 'Власник ресторану "Смачно"',
 
@@ -274,12 +274,12 @@ const translations = {
     servicePricing: 'Вартість послуги',
     
     // Service Page Titles (for browser title)
-    onlineStorePageTitle: 'Інтернет-магазин - Gravity Team',
-    educationalPlatformPageTitle: 'Освітня платформа - Gravity Team',
-    landingPagePageTitle: 'Landing Page - Gravity Team', 
-    corporateWebsitePageTitle: 'Корпоративний сайт - Gravity Team',
-    portfolioSitePageTitle: 'Сайт-портфоліо - Gravity Team',
-    mediaPortalPageTitle: 'Медіа-портал - Gravity Team',
+    onlineStorePageTitle: 'Інтернет-магазин - AI Lab',
+    educationalPlatformPageTitle: 'Освітня платформа - AI Lab',
+    landingPagePageTitle: 'Landing Page - AI Lab', 
+    corporateWebsitePageTitle: 'Корпоративний сайт - AI Lab',
+    portfolioSitePageTitle: 'Сайт-портфоліо - AI Lab',
+    mediaPortalPageTitle: 'Медіа-портал - AI Lab',
 
     // Service Detail specific
     serviceNotFound: 'Послугу не знайдено',
@@ -396,7 +396,7 @@ const translations = {
     heroButton: 'Start Project',
 
     // About Section
-    aboutTitle: 'About Gravity Team',
+    aboutTitle: 'About AI Lab',
     aboutDescription: 'We are a team of professionals with over 5 years of experience in web development. We create quality solutions for businesses of any scale.',
     aboutStat1: '200+',
     aboutStat1Label: 'Completed Projects',
@@ -591,16 +591,16 @@ const translations = {
     // Testimonials
     testimonialsTitle: 'Client Testimonials',
     testimonialsSubtitle: 'What our clients say about working with us',
-    testimonial1Text: 'Gravity Team are true professionals: they created a full-fledged online store for us in a month, integrated CMS and payment systems. The result is +40% sales in the first quarter.',
+    testimonial1Text: 'AI Lab are true professionals: they created a full-fledged online store for us in a month, integrated CMS and payment systems. The result is +40% sales in the first quarter.',
     testimonial1Name: 'Iryna Petrenko',
     testimonial1Position: 'CEO Fashion.ua',
-    testimonial2Text: 'Thanks to the Gravity Team, our startup got a modern landing page with responsive design. Conversion increased by 65%, and loading time was reduced threefold.',
+    testimonial2Text: 'Thanks to the AI Lab, our startup got a modern landing page with responsive design. Conversion increased by 65%, and loading time was reduced threefold.',
     testimonial2Name: 'Maksym Kovalenko',
     testimonial2Position: 'TechStart Founder',
-    testimonial3Text: 'The best team for corporate website development! Gravity Team created a multilingual portal with CMS for us, which allowed us to increase our client base by 80%.',
+    testimonial3Text: 'The best team for corporate website development! AI Lab created a multilingual portal with CMS for us, which allowed us to increase our client base by 80%.',
     testimonial3Name: 'Olena Sydorova',
     testimonial3Position: 'Marketing Director GlobalCorp',
-    testimonial4Text: 'We ordered a redesign of our restaurant website from Gravity Team. Got a modern design with online table booking. The number of bookings increased by 120%!',
+    testimonial4Text: 'We ordered a redesign of our restaurant website from AI Lab. Got a modern design with online table booking. The number of bookings increased by 120%!',
     testimonial4Name: 'Andriy Melnyk',
     testimonial4Position: 'Owner of "Delicious" Restaurant',
 
@@ -639,12 +639,12 @@ const translations = {
     servicePricing: 'Pricing',
     
     // Service Page Titles (for browser title)
-    onlineStorePageTitle: 'Online Store - Gravity Team',
-    educationalPlatformPageTitle: 'Educational Platform - Gravity Team',
-    landingPagePageTitle: 'Landing Page - Gravity Team',
-    corporateWebsitePageTitle: 'Corporate Website - Gravity Team',
-    portfolioSitePageTitle: 'Portfolio Site - Gravity Team',
-    mediaPortalPageTitle: 'Media Portal - Gravity Team',
+    onlineStorePageTitle: 'Online Store - AI Lab',
+    educationalPlatformPageTitle: 'Educational Platform - AI Lab',
+    landingPagePageTitle: 'Landing Page - AI Lab',
+    corporateWebsitePageTitle: 'Corporate Website - AI Lab',
+    portfolioSitePageTitle: 'Portfolio Site - AI Lab',
+    mediaPortalPageTitle: 'Media Portal - AI Lab',
 
     // Service Detail specific
     serviceNotFound: 'Service not found',
@@ -761,7 +761,7 @@ const translations = {
     heroButton: 'Начать проект',
 
     // About Section
-    aboutTitle: 'О компании Gravity Team',
+    aboutTitle: 'О компании AI Lab',
     aboutDescription: 'Мы — команда профессионалов с более чем 5-летним опытом в веб-разработке. Создаем качественные решения для бизнеса любого масштаба.',
     aboutStat1: '200+',
     aboutStat1Label: 'Завершённых проектов',
@@ -956,16 +956,16 @@ const translations = {
     // Testimonials
     testimonialsTitle: 'Отзывы клиентов',
     testimonialsSubtitle: 'Что говорят наши клиенты о работе с нами',
-    testimonial1Text: 'Gravity Team поистине профессионалы: в течение месяца создали для нас полноценный интернет-магазин, интегрировали CMS и платежные системы. Результат — +40% продаж уже в первом квартале.',
+    testimonial1Text: 'AI Lab поистине профессионалы: в течение месяца создали для нас полноценный интернет-магазин, интегрировали CMS и платежные системы. Результат — +40% продаж уже в первом квартале.',
     testimonial1Name: 'Ирина Петренко',
     testimonial1Position: 'CEO Fashion.ua',
-    testimonial2Text: 'Благодаря команде Gravity Team наш стартап получил современный лендинг с адаптивным дизайном. Конверсия выросла на 65%, а время загрузки сократилось втрое.',
+    testimonial2Text: 'Благодаря команде AI Lab наш стартап получил современный лендинг с адаптивным дизайном. Конверсия выросла на 65%, а время загрузки сократилось втрое.',
     testimonial2Name: 'Максим Коваленко',
     testimonial2Position: 'Основатель TechStart',
-    testimonial3Text: 'Лучшая команда для разработки корпоративных сайтов! Gravity Team создали для нас многоязычный портал с CMS, что позволило увеличить клиентскую базу на 80%.',
+    testimonial3Text: 'Лучшая команда для разработки корпоративных сайтов! AI Lab создали для нас многоязычный портал с CMS, что позволило увеличить клиентскую базу на 80%.',
     testimonial3Name: 'Елена Сидорова',
     testimonial3Position: 'Директор по маркетингу GlobalCorp',
-    testimonial4Text: 'Заказывали у Gravity Team редизайн нашего ресторанного сайта. Получили современный дизайн с онлайн-бронированием столиков. Количество бронирований выросло на 120%!',
+    testimonial4Text: 'Заказывали у AI Lab редизайн нашего ресторанного сайта. Получили современный дизайн с онлайн-бронированием столиков. Количество бронирований выросло на 120%!',
     testimonial4Name: 'Андрей Мельник',
     testimonial4Position: 'Владелец ресторана "Вкусно"',
 
@@ -1004,12 +1004,12 @@ const translations = {
     servicePricing: 'Стоимость услуги',
     
     // Service Page Titles (for browser title)
-    onlineStorePageTitle: 'Интернет-магазин - Gravity Team',
-    educationalPlatformPageTitle: 'Образовательная платформа - Gravity Team',
-    landingPagePageTitle: 'Landing Page - Gravity Team',
-    corporateWebsitePageTitle: 'Корпоративный сайт - Gravity Team',
-    portfolioSitePageTitle: 'Сайт-портфолио - Gravity Team',
-    mediaPortalPageTitle: 'Медиа-портал - Gravity Team',
+    onlineStorePageTitle: 'Интернет-магазин - AI Lab',
+    educationalPlatformPageTitle: 'Образовательная платформа - AI Lab',
+    landingPagePageTitle: 'Landing Page - AI Lab',
+    corporateWebsitePageTitle: 'Корпоративный сайт - AI Lab',
+    portfolioSitePageTitle: 'Сайт-портфолио - AI Lab',
+    mediaPortalPageTitle: 'Медиа-портал - AI Lab',
 
     // Service Detail specific
     serviceNotFound: 'Услуга не найдена',
