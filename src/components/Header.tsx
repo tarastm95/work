@@ -78,9 +78,8 @@ const Header: React.FC = () => {
             onClick={() => navigate('/')}
           >
             <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-              ai lab
+              AI LAB
             </span>
-            <span className="text-white ml-2">TEAM</span>
           </div>
 
           {/* Desktop Navigation */}
