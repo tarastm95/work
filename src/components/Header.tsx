@@ -100,7 +100,7 @@ const Header: React.FC = () => {
             
             {/* Services Dropdown */}
             <div
-              className="relative pb-2"
+              className="relative"
               onMouseEnter={() => setIsServicesOpen(true)}
               onMouseLeave={() => setIsServicesOpen(false)}
             >
