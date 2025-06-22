@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useAppSelector } from '../hooks/useAppSelector';
 import { useLanguage } from '../contexts/LanguageContext';
@@ -14,6 +14,10 @@ const ServiceDetail: React.FC = () => {
   const { t } = useLanguage();
   
   const service = services.find(s => s.id === serviceId);
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+  }, [serviceId]);
 
   if (!service) {
     return (
