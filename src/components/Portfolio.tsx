@@ -237,16 +237,13 @@ const Portfolio: React.FC = () => {
                     {item.description}
                   </p>
                   
-                  <div className="flex items-center justify-between">
-                    <button 
+                  <div className="flex items-center justify-center">
+                    <button
                       onClick={() => openModal(item)}
-                      className="text-neon-blue hover:text-neon-purple transition-colors font-medium group-hover:animate-shimmer"
+                      className="px-4 py-2 bg-gradient-to-r from-neon-blue to-neon-purple text-white rounded-lg font-medium hover:from-neon-purple hover:to-neon-pink transition-all duration-300"
                     >
-                      {t('detailsButton')} →
+                      {t('detailsButton')}
                     </button>
-                    <div className="w-8 h-8 bg-gradient-to-r from-neon-blue to-neon-purple rounded-full flex items-center justify-center group-hover:animate-glow">
-                      <span className="text-white text-sm">→</span>
-                    </div>
                   </div>
                 </div>
               </GlassCard>
@@ -355,8 +352,11 @@ const Portfolio: React.FC = () => {
                 </div>
 
                 <div className="pt-4">
-                  <button 
-                    onClick={() => scrollToSection('contact')}
+                  <button
+                    onClick={() => {
+                      closeModal();
+                      scrollToSection('contact');
+                    }}
                     className="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-3 rounded-lg hover:from-blue-600 hover:to-purple-700 transition-all duration-300"
                   >
                     {t('orderSimilarProject')}
