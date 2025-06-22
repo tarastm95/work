@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { useNavigate } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 import { Service } from '../store/slices/servicesSlice';
@@ -12,6 +13,7 @@ interface ServiceCardProps {
 const ServiceCard: React.FC<ServiceCardProps> = ({ service, isLarge = true }) => {
   const navigate = useNavigate();
   const { t } = useLanguage();
+  const { ref, isVisible } = useScrollAnimation();
 
   const handleViewDetails = () => {
     navigate(`/service/${service.id}`);
@@ -71,8 +73,8 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ service, isLarge = true }) =>
 
   return (
     <div
-      data-taos="fade-up"
-      className={`bg-gradient-to-br from-gray-800 to-gray-900 p-8 rounded-2xl border border-gray-700 hover:border-blue-500/50 transition-all duration-300 transform hover:scale-105 group ${isLarge ? 'h-full' : ''}`}
+      ref={ref}
+      className={`bg-gradient-to-br from-gray-800 to-gray-900 p-8 rounded-2xl border border-gray-700 hover:border-blue-500/50 transition-all duration-700 transform hover:scale-105 group ${isLarge ? 'h-full' : ''} ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
     >
       <h3 className={`font-bold text-white mb-4 group-hover:text-blue-400 transition-colors ${isLarge ? 'text-2xl' : 'text-xl'}`}>
         {getServiceTitle(service.id)}
