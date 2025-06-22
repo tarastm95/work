@@ -3,11 +3,15 @@ import type { Config } from "tailwindcss";
 
 export default {
 	darkMode: ["class"],
-       content: [
-               "./pages/**/*.{ts,tsx}",
-               "./components/**/*.{ts,tsx}",
-               "./app/**/*.{ts,tsx}",
-               "./src/**/*.{ts,tsx}",
+       content: {
+               relative: true,
+               transform: (content: string) => content.replace(/taos:/g, ''),
+               files: ['./src/**/*.{js,jsx,ts,tsx,html}'],
+       },
+       safelist: [
+               '!duration-[0ms]',
+               '!delay-[0ms]',
+               'html.js :where([class*="taos:"]:not(.taos-init))'
        ],
        prefix: "",
 	theme: {
@@ -202,5 +206,6 @@ export default {
 	},
        plugins: [
                require("tailwindcss-animate"),
+               require("taos/plugin"),
        ],
 } satisfies Config;
