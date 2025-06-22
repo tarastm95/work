@@ -25,6 +25,12 @@ const HeroSlider: React.FC = () => {
       subtitle: t('heroSlide3Subtitle'),
       highlight: t('heroSlide3Highlight'),
       bgGradient: "from-indigo-600 via-blue-600 to-cyan-600"
+    },
+    {
+      title: t('heroSlide4Title'),
+      subtitle: t('heroSlide4Subtitle'),
+      highlight: t('heroSlide4Highlight'),
+      bgGradient: "from-green-600 via-teal-600 to-cyan-600"
     }
   ];
 
