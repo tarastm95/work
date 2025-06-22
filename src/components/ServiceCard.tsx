@@ -70,7 +70,10 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ service, isLarge = true }) =>
   };
 
   return (
-    <div className={`bg-gradient-to-br from-gray-800 to-gray-900 p-8 rounded-2xl border border-gray-700 hover:border-blue-500/50 transition-all duration-300 transform hover:scale-105 group ${isLarge ? 'h-full' : ''}`}>
+    <div
+      data-taos="fade-up"
+      className={`bg-gradient-to-br from-gray-800 to-gray-900 p-8 rounded-2xl border border-gray-700 hover:border-blue-500/50 transition-all duration-300 transform hover:scale-105 group ${isLarge ? 'h-full' : ''}`}
+    >
       <h3 className={`font-bold text-white mb-4 group-hover:text-blue-400 transition-colors ${isLarge ? 'text-2xl' : 'text-xl'}`}>
         {getServiceTitle(service.id)}
       </h3>
@@ -95,13 +98,13 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ service, isLarge = true }) =>
       <div className="space-y-3">
         <button 
           onClick={handleViewDetails}
-          className="w-full bg-gradient-to-r from-gray-600 to-gray-700 text-white py-3 rounded-lg hover:from-gray-500 hover:to-gray-600 transition-all duration-300 transform hover:scale-105 font-medium"
+          className="w-full bg-gradient-to-r from-gray-600 to-gray-700 text-white py-3 rounded-lg hover:from-gray-500 hover:to-gray-600 transition-transform duration-300 hover:-translate-y-1 hover:scale-105 font-medium"
         >
           {t('detailsButton')}
         </button>
         <button 
           onClick={() => scrollToSection('contact')}
-          className="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white py-3 rounded-lg hover:from-blue-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 font-medium"
+          className="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white py-3 rounded-lg hover:from-blue-600 hover:to-purple-700 transition-transform duration-300 hover:-translate-y-1 hover:scale-105 font-medium"
         >
           {t('orderNow')}
         </button>

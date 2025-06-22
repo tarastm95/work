@@ -90,15 +90,15 @@ const Header: React.FC = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
-            <button 
+            <button
               onClick={() => scrollToSection('hero')}
-              className="text-white hover:text-blue-400 transition-colors"
+              className="group relative text-white transition-all duration-300 hover:text-blue-400 after:absolute after:left-0 after:-bottom-0.5 after:h-0.5 after:w-0 after:bg-blue-400 after:transition-all after:duration-300 group-hover:after:w-full"
             >
               {t('home')}
             </button>
-            <button 
+            <button
               onClick={() => scrollToSection('about')}
-              className="text-white hover:text-blue-400 transition-colors"
+              className="group relative text-white transition-all duration-300 hover:text-blue-400 after:absolute after:left-0 after:-bottom-0.5 after:h-0.5 after:w-0 after:bg-blue-400 after:transition-all after:duration-300 group-hover:after:w-full"
             >
               {t('about')}
             </button>
@@ -109,7 +109,7 @@ const Header: React.FC = () => {
               onMouseEnter={() => setIsServicesOpen(true)}
               onMouseLeave={() => setIsServicesOpen(false)}
             >
-              <button className="flex items-center text-white hover:text-blue-400 transition-colors">
+              <button className="group relative flex items-center text-white transition-all duration-300 hover:text-blue-400 after:absolute after:left-0 after:-bottom-0.5 after:h-0.5 after:w-0 after:bg-blue-400 after:transition-all after:duration-300 group-hover:after:w-full">
                 {t('services')}
                 <ChevronDown className="ml-1 w-4 h-4" />
               </button>
@@ -136,33 +136,33 @@ const Header: React.FC = () => {
               )}
             </div>
 
-            <button 
+            <button
               onClick={() => scrollToSection('portfolio')}
-              className="text-white hover:text-blue-400 transition-colors"
+              className="group relative text-white transition-all duration-300 hover:text-blue-400 after:absolute after:left-0 after:-bottom-0.5 after:h-0.5 after:w-0 after:bg-blue-400 after:transition-all after:duration-300 group-hover:after:w-full"
             >
               {t('portfolio')}
             </button>
-            <button 
+            <button
               onClick={() => scrollToSection('calculator')}
-              className="text-white hover:text-blue-400 transition-colors"
+              className="group relative text-white transition-all duration-300 hover:text-blue-400 after:absolute after:left-0 after:-bottom-0.5 after:h-0.5 after:w-0 after:bg-blue-400 after:transition-all after:duration-300 group-hover:after:w-full"
             >
               {t('calculator')}
             </button>
-            <button 
+            <button
               onClick={() => scrollToSection('faq')}
-              className="text-white hover:text-blue-400 transition-colors"
+              className="group relative text-white transition-all duration-300 hover:text-blue-400 after:absolute after:left-0 after:-bottom-0.5 after:h-0.5 after:w-0 after:bg-blue-400 after:transition-all after:duration-300 group-hover:after:w-full"
             >
               {t('faq')}
             </button>
-            <button 
+            <button
               onClick={() => scrollToSection('testimonials')}
-              className="text-white hover:text-blue-400 transition-colors"
+              className="group relative text-white transition-all duration-300 hover:text-blue-400 after:absolute after:left-0 after:-bottom-0.5 after:h-0.5 after:w-0 after:bg-blue-400 after:transition-all after:duration-300 group-hover:after:w-full"
             >
               {t('testimonials')}
             </button>
-            <button 
+            <button
               onClick={() => scrollToSection('contact')}
-              className="text-white hover:text-blue-400 transition-colors"
+              className="group relative text-white transition-all duration-300 hover:text-blue-400 after:absolute after:left-0 after:-bottom-0.5 after:h-0.5 after:w-0 after:bg-blue-400 after:transition-all after:duration-300 group-hover:after:w-full"
             >
               {t('contacts')}
             </button>
@@ -171,9 +171,9 @@ const Header: React.FC = () => {
           {/* Language Selector & CTA Button */}
           <div className="hidden lg:flex items-center space-x-4">
             <LanguageSelector />
-            <button 
+            <button
               onClick={() => scrollToSection('contact')}
-              className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-2 rounded-full hover:from-blue-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105"
+              className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-2 rounded-full transition-transform duration-300 hover:-translate-y-1 hover:scale-105 hover:from-blue-600 hover:to-purple-700"
             >
               {t('getConsultation')}
             </button>
@@ -258,9 +258,9 @@ const Header: React.FC = () => {
               >
                 {t('contacts')}
               </button>
-              <button 
+              <button
                 onClick={() => scrollToSection('contact')}
-                className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-2 rounded-full hover:from-blue-600 hover:to-purple-700 transition-all duration-300 mt-4"
+                className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-2 rounded-full mt-4 transition-transform duration-300 hover:-translate-y-1 hover:scale-105 hover:from-blue-600 hover:to-purple-700"
               >
                 {t('getConsultation')}
               </button>

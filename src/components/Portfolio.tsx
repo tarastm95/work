@@ -213,13 +213,20 @@ const Portfolio: React.FC = () => {
               style={{ transitionDelay: `${index * 100}ms` }}
             >
               <GlassCard className="group overflow-hidden hover:shadow-2xl hover:shadow-neon-blue/20 transform hover:scale-105 transition-all duration-500">
-                <div className="relative overflow-hidden">
-                  <img 
-                    src={item.image} 
+                <div className="relative overflow-hidden group">
+                  <img
+                    src={item.image}
                     alt={item.title}
                     className="w-full h-64 object-cover object-top transition-transform duration-500 group-hover:scale-110"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <div className="absolute inset-0 flex items-center justify-center bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <button
+                      onClick={() => openModal(item)}
+                      className="px-4 py-2 bg-gradient-to-r from-neon-blue to-neon-purple text-white rounded-lg font-medium hover:from-neon-purple hover:to-neon-pink transition-transform duration-300 hover:-translate-y-1 hover:scale-105"
+                    >
+                      {t('detailsButton')}
+                    </button>
+                  </div>
                   <div className="absolute top-4 right-4">
                     <GlassCard className="px-3 py-1">
                       <span className="text-neon-blue text-sm font-medium">
@@ -233,18 +240,9 @@ const Portfolio: React.FC = () => {
                   <h3 className="text-xl font-bold text-white mb-3 group-hover:text-neon-blue transition-colors">
                     {item.title}
                   </h3>
-                  <p className="text-gray-300 mb-4 leading-relaxed font-light">
+                  <p className="text-gray-300 leading-relaxed font-light">
                     {item.description}
                   </p>
-                  
-                  <div className="flex items-center justify-center">
-                    <button
-                      onClick={() => openModal(item)}
-                      className="px-4 py-2 bg-gradient-to-r from-neon-blue to-neon-purple text-white rounded-lg font-medium hover:from-neon-purple hover:to-neon-pink transition-all duration-300"
-                    >
-                      {t('detailsButton')}
-                    </button>
-                  </div>
                 </div>
               </GlassCard>
             </div>
