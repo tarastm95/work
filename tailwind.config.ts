@@ -9,11 +9,7 @@ export default {
                "./app/**/*.{ts,tsx}",
                "./src/**/*.{ts,tsx}",
        ],
-       transform: {
-               tsx: (content: string) => content.replace(/taos:/g, ""),
-       },
-       safelist: [{ pattern: /taos:.*/ }],
-	prefix: "",
+       prefix: "",
 	theme: {
 		container: {
 			center: true,
@@ -206,6 +202,5 @@ export default {
 	},
        plugins: [
                require("tailwindcss-animate"),
-               require("taos/plugin"),
        ],
 } satisfies Config;
