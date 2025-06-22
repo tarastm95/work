@@ -66,6 +66,54 @@ const initialState: ServicesState = {
       category: 'main'
     },
     {
+      id: '11',
+      title: 'AI-чат-агент',
+      description: 'Мультиканальний чат-бот для обробки запитів клієнтів у реальному часі з інтеграцією у месенджери та CRM.',
+      originalPrice: 45000,
+      discountPrice: 22500,
+      category: 'main'
+    },
+    {
+      id: '12',
+      title: 'Рекомендаційний агент',
+      description: 'Система персоналізованих рекомендацій товарів чи контенту на основі поведінки користувачів.',
+      originalPrice: 60000,
+      discountPrice: 30000,
+      category: 'main'
+    },
+    {
+      id: '13',
+      title: 'Аналітичний AI-агент',
+      description: 'Автоматизована обробка та візуалізація великих даних із прогнозами й звітністю.',
+      originalPrice: 70000,
+      discountPrice: 35000,
+      category: 'main'
+    },
+    {
+      id: '14',
+      title: 'Контент-генератор',
+      description: 'AI-інструмент для створення статей, описів товарів та маркетингових текстів.',
+      originalPrice: 25000,
+      discountPrice: 12500,
+      category: 'main'
+    },
+    {
+      id: '15',
+      title: 'Віртуальний асистент',
+      description: 'Голосовий або текстовий агент для бронювання, нагадувань і базових консультацій.',
+      originalPrice: 55000,
+      discountPrice: 27500,
+      category: 'main'
+    },
+    {
+      id: '16',
+      title: 'Моніторинговий агент',
+      description: 'Система відстеження ключових метрик (сайт, соцмережі, продажі) з миттєвими сповіщеннями.',
+      originalPrice: 35000,
+      discountPrice: 17500,
+      category: 'main'
+    },
+    {
       id: '7',
       title: 'Логотип',
       description: 'Розробка логотипу з унікальною ідеєю, адаптивного до всіх носіїв: від візиток до сайту.',

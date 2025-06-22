@@ -48,7 +48,13 @@ const ServiceDetail: React.FC = () => {
       '3': t('landingPageTitle'),
       '4': t('corporateWebsiteTitle'),
       '5': t('portfolioSiteTitle'),
-      '6': t('mediaPortalTitle')
+      '6': t('mediaPortalTitle'),
+      '11': t('aiChatAgentTitle'),
+      '12': t('recommendationAgentTitle'),
+      '13': t('analyticsAgentTitle'),
+      '14': t('contentGeneratorTitle'),
+      '15': t('virtualAssistantTitle'),
+      '16': t('monitoringAgentTitle')
     };
     return titles[serviceId] || service.title;
   };
@@ -60,7 +66,13 @@ const ServiceDetail: React.FC = () => {
       '3': t('landingPageDescription'),
       '4': t('corporateWebsiteDescription'),
       '5': t('portfolioSiteDescription'),
-      '6': t('mediaPortalDescription')
+      '6': t('mediaPortalDescription'),
+      '11': t('aiChatAgentDescription'),
+      '12': t('recommendationAgentDescription'),
+      '13': t('analyticsAgentDescription'),
+      '14': t('contentGeneratorDescription'),
+      '15': t('virtualAssistantDescription'),
+      '16': t('monitoringAgentDescription')
     };
     return descriptions[serviceId] || service.description;
   };
@@ -114,6 +126,54 @@ const ServiceDetail: React.FC = () => {
         t('feature6_4'),
         t('feature6_5'),
         t('feature6_6')
+      ],
+      '11': [
+        t('feature11_1'),
+        t('feature11_2'),
+        t('feature11_3'),
+        t('feature11_4'),
+        t('feature11_5'),
+        t('feature11_6')
+      ],
+      '12': [
+        t('feature12_1'),
+        t('feature12_2'),
+        t('feature12_3'),
+        t('feature12_4'),
+        t('feature12_5'),
+        t('feature12_6')
+      ],
+      '13': [
+        t('feature13_1'),
+        t('feature13_2'),
+        t('feature13_3'),
+        t('feature13_4'),
+        t('feature13_5'),
+        t('feature13_6')
+      ],
+      '14': [
+        t('feature14_1'),
+        t('feature14_2'),
+        t('feature14_3'),
+        t('feature14_4'),
+        t('feature14_5'),
+        t('feature14_6')
+      ],
+      '15': [
+        t('feature15_1'),
+        t('feature15_2'),
+        t('feature15_3'),
+        t('feature15_4'),
+        t('feature15_5'),
+        t('feature15_6')
+      ],
+      '16': [
+        t('feature16_1'),
+        t('feature16_2'),
+        t('feature16_3'),
+        t('feature16_4'),
+        t('feature16_5'),
+        t('feature16_6')
       ]
     };
     return features[serviceId] || [];
@@ -126,7 +186,13 @@ const ServiceDetail: React.FC = () => {
       '3': { projects: '300+', conversion: '28%', avgTime: t('days7') },
       '4': { projects: '200+', conversion: '15%', avgTime: t('days14') },
       '5': { projects: '120+', conversion: '22%', avgTime: t('days10') },
-      '6': { projects: '80+', conversion: '18%', avgTime: t('days30') }
+      '6': { projects: '80+', conversion: '18%', avgTime: t('days30') },
+      '11': { projects: '60+', conversion: '90%', avgTime: t('days25') },
+      '12': { projects: '40+', conversion: '85%', avgTime: t('days30') },
+      '13': { projects: '30+', conversion: '88%', avgTime: t('days35') },
+      '14': { projects: '75+', conversion: '92%', avgTime: t('days25') },
+      '15': { projects: '50+', conversion: '80%', avgTime: t('days30') },
+      '16': { projects: '90+', conversion: '95%', avgTime: t('days14') }
     };
     return stats[serviceId] || { projects: '50+', conversion: '20%', avgTime: t('days14') };
   };
