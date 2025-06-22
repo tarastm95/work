@@ -99,8 +99,8 @@ const Header: React.FC = () => {
             </button>
             
             {/* Services Dropdown */}
-            <div 
-              className="relative"
+            <div
+              className="relative pb-2"
               onMouseEnter={() => setIsServicesOpen(true)}
               onMouseLeave={() => setIsServicesOpen(false)}
             >
@@ -108,9 +108,9 @@ const Header: React.FC = () => {
                 {t('services')}
                 <ChevronDown className="ml-1 w-4 h-4" />
               </button>
-              
+
               {isServicesOpen && (
-                <div className="absolute top-full left-0 mt-2 w-64 bg-gray-800 rounded-lg shadow-xl py-2 z-50">
+                <div className="absolute left-0 top-full w-64 bg-gray-800 rounded-lg shadow-xl py-2 z-50">
                   {mainServices.map((service) => (
                     <button
                       key={service.id}
