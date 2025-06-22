@@ -114,58 +114,9 @@ const Footer: React.FC = () => {
                 <p className="text-white">{t('workingHours')}</p>
               </div>
               
-              {/* Social Media */}
-              <div className="flex space-x-3 mt-4">
-                <a 
-                  href="#" 
-                  className="bg-gray-800 hover:bg-blue-600 text-white p-2 rounded-lg transition-colors"
-                >
-                  📘
-                </a>
-                <a 
-                  href="#" 
-                  className="bg-gray-800 hover:bg-pink-600 text-white p-2 rounded-lg transition-colors"
-                >
-                  📷
-                </a>
-                <a 
-                  href="#" 
-                  className="bg-gray-800 hover:bg-blue-400 text-white p-2 rounded-lg transition-colors"
-                >
-                  🐦
-                </a>
-                <a 
-                  href="#" 
-                  className="bg-gray-800 hover:bg-blue-500 text-white p-2 rounded-lg transition-colors"
-                >
-                  💼
-                </a>
-              </div>
+            </div>
             </div>
           </div>
-        </div>
-
-        {/* Newsletter Subscription */}
-        <div className="border-t border-gray-800 pt-8 mb-8">
-          <div className="max-w-2xl mx-auto text-center">
-            <h3 className="text-white font-bold text-xl mb-4">
-              {t('newsletter')}
-            </h3>
-            <p className="text-gray-400 mb-6">
-              {t('newsletterDescription')}
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-              <input
-                type="email"
-                placeholder={t('emailPlaceholder')}
-                className="flex-1 bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-blue-500 transition-colors"
-              />
-              <button className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-3 rounded-lg hover:from-blue-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105">
-                {t('subscribe')}
-              </button>
-            </div>
-          </div>
-        </div>
 
         {/* Copyright */}
         <div className="border-t border-gray-800 pt-8 text-center">
