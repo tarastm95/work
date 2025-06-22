@@ -13,7 +13,7 @@ const Contact: React.FC = () => {
     message: ''
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
     // Basic validation
@@ -26,14 +26,36 @@ const Contact: React.FC = () => {
       return;
     }
 
-    // Here you would typically send the form data to your backend
-    console.log('Form submitted:', formData);
-    
-    toast({
-      title: "Дякуємо за звернення!",
-      description: "Ми зв'яжемося з вами найближчим часом",
-    });
+    try {
+      const response = await fetch(
+        'https://formsubmit.co/ajax/tarasmazepa95@gmail.com',
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            Accept: 'application/json'
+          },
+          body: JSON.stringify(formData)
+        }
+      );
 
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+
+      toast({
+        title: "Дякуємо за звернення!",
+        description: "Ми зв'яжемося з вами найближчим часом",
+      });
+    } catch (error) {
+      toast({
+        title: "Помилка",
+        description: 'Не вдалося надіслати форму. Спробуйте ще раз пізніше.',
+        variant: 'destructive'
+      });
+      return;
+    }
+    
     // Reset form
     setFormData({
       name: '',
@@ -190,38 +212,6 @@ const Contact: React.FC = () => {
                 </div>
               </div>
 
-              <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-8 rounded-2xl border border-gray-700">
-                <h3 className="text-xl font-bold text-white mb-4">
-                  {t('followUs')}
-                </h3>
-                
-                <div className="flex space-x-4">
-                  <a 
-                    href="#" 
-                    className="bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-lg transition-colors"
-                  >
-                    📘
-                  </a>
-                  <a 
-                    href="#" 
-                    className="bg-pink-600 hover:bg-pink-700 text-white p-3 rounded-lg transition-colors"
-                  >
-                    📷
-                  </a>
-                  <a 
-                    href="#" 
-                    className="bg-blue-400 hover:bg-blue-500 text-white p-3 rounded-lg transition-colors"
-                  >
-                    🐦
-                  </a>
-                  <a 
-                    href="#" 
-                    className="bg-blue-500 hover:bg-blue-600 text-white p-3 rounded-lg transition-colors"
-                  >
-                    💼
-                  </a>
-                </div>
-              </div>
             </div>
           </div>
         </div>
