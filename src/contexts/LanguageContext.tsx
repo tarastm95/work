@@ -181,6 +181,18 @@ const translations = {
     portfolioSiteDescription: 'Персональний сайт для демонстрації ваших робіт та досягнень',
     mediaPortalTitle: 'Медіа-портал',
     mediaPortalDescription: 'Новинний портал або блог з системою публікацій та коментарів',
+    aiChatAgentTitle: 'AI-чат-агент',
+    aiChatAgentDescription: 'Мультиканальний чат-бот для обробки запитів клієнтів у реальному часі з інтеграцією у месенджери та CRM',
+    recommendationAgentTitle: 'Рекомендаційний агент',
+    recommendationAgentDescription: 'Система персоналізованих рекомендацій товарів чи контенту на основі поведінки користувачів',
+    analyticsAgentTitle: 'Аналітичний AI-агент',
+    analyticsAgentDescription: 'Автоматизована обробка та візуалізація великих даних із прогнозами й звітністю',
+    contentGeneratorTitle: 'Контент-генератор',
+    contentGeneratorDescription: 'AI-інструмент для створення статей, описів товарів та маркетингових текстів',
+    virtualAssistantTitle: 'Віртуальний асистент',
+    virtualAssistantDescription: 'Голосовий або текстовий агент для бронювання, нагадувань і базових консультацій',
+    monitoringAgentTitle: 'Моніторинговий агент',
+    monitoringAgentDescription: 'Система відстеження ключових метрик (сайт, соцмережі, продажі) з миттєвими сповіщеннями',
 
     // Additional Services
     logoDesignTitle: 'Дизайн логотипу',
@@ -371,6 +383,54 @@ const translations = {
     feature6_5: 'Соціальні мережі',
     feature6_6: 'Пошук по сайту',
 
+    // Service features - AI Chat Agent
+    feature11_1: 'Миттєві відповіді 24/7',
+    feature11_2: 'Інтеграція з месенджерами',
+    feature11_3: 'Підтримка декількох мов',
+    feature11_4: 'Аналітика запитів',
+    feature11_5: 'Просте налаштування сценаріїв',
+    feature11_6: 'Зв\'язок з CRM',
+
+    // Service features - Recommendation Agent
+    feature12_1: 'Персоналізовані рекомендації',
+    feature12_2: 'Аналіз поведінки користувачів',
+    feature12_3: 'Інтеграція з каталогом',
+    feature12_4: 'Гнучкі правила',
+    feature12_5: 'Статистика ефективності',
+    feature12_6: 'Масштабованість',
+
+    // Service features - Analytical AI Agent
+    feature13_1: 'Автоматична обробка даних',
+    feature13_2: 'Інтерактивні дашборди',
+    feature13_3: 'Прогнозування трендів',
+    feature13_4: 'Експорт звітів',
+    feature13_5: 'Інтеграція з BI системами',
+    feature13_6: 'Підтримка великих даних',
+
+    // Service features - Content Generator
+    feature14_1: 'Швидке створення статей',
+    feature14_2: 'SEO оптимізовані тексти',
+    feature14_3: 'Різні жанри контенту',
+    feature14_4: 'Інтеграція з CMS',
+    feature14_5: 'Налаштування тону голосу',
+    feature14_6: 'Опис товарів',
+
+    // Service features - Virtual Assistant
+    feature15_1: 'Голосове та текстове управління',
+    feature15_2: 'Нагадування і календар',
+    feature15_3: 'Бронювання зустрічей',
+    feature15_4: 'Відповіді на FAQ',
+    feature15_5: 'Синхронізація зі смартфоном',
+    feature15_6: 'Персоналізовані поради',
+
+    // Service features - Monitoring Agent
+    feature16_1: 'Відстеження трафіку сайту',
+    feature16_2: 'Аналіз соцмереж',
+    feature16_3: 'Контроль продажів',
+    feature16_4: 'Сповіщення про відхилення',
+    feature16_5: 'Звіти в реальному часі',
+    feature16_6: 'Інтеграція з аналітикою',
+
     // Project Description
     projectDescription: 'Опис проекту',
     technologies: 'Технології',
@@ -549,6 +609,18 @@ const translations = {
     portfolioSiteDescription: 'Personal website to showcase your work and achievements',
     mediaPortalTitle: 'Media Portal',
     mediaPortalDescription: 'News portal or blog with publication and comment system',
+    aiChatAgentTitle: 'AI Chat Agent',
+    aiChatAgentDescription: 'Multichannel chatbot handling customer inquiries in real time with messenger and CRM integration',
+    recommendationAgentTitle: 'Recommendation Agent',
+    recommendationAgentDescription: 'Personalized product or content recommendations based on user behavior',
+    analyticsAgentTitle: 'Analytical AI Agent',
+    analyticsAgentDescription: 'Automated processing and visualization of big data with forecasts and reporting',
+    contentGeneratorTitle: 'Content Generator',
+    contentGeneratorDescription: 'AI tool for creating articles, product descriptions and marketing texts',
+    virtualAssistantTitle: 'Virtual Assistant',
+    virtualAssistantDescription: 'Voice or text agent for booking, reminders and basic consultations',
+    monitoringAgentTitle: 'Monitoring Agent',
+    monitoringAgentDescription: 'System for tracking key metrics (website, social media, sales) with instant alerts',
 
     // Additional Services
     logoDesignTitle: 'Logo Design',
@@ -739,6 +811,54 @@ const translations = {
     feature6_5: 'Social networks',
     feature6_6: 'Site search',
 
+    // Service features - AI Chat Agent
+    feature11_1: 'Instant replies 24/7',
+    feature11_2: 'Messenger integration',
+    feature11_3: 'Multi-language support',
+    feature11_4: 'Query analytics',
+    feature11_5: 'Easy scenario setup',
+    feature11_6: 'CRM connection',
+
+    // Service features - Recommendation Agent
+    feature12_1: 'Personalized recommendations',
+    feature12_2: 'User behavior analysis',
+    feature12_3: 'Catalog integration',
+    feature12_4: 'Flexible rules',
+    feature12_5: 'Performance stats',
+    feature12_6: 'Scalability',
+
+    // Service features - Analytical AI Agent
+    feature13_1: 'Automated data processing',
+    feature13_2: 'Interactive dashboards',
+    feature13_3: 'Trend forecasting',
+    feature13_4: 'Report export',
+    feature13_5: 'BI systems integration',
+    feature13_6: 'Large data support',
+
+    // Service features - Content Generator
+    feature14_1: 'Fast article creation',
+    feature14_2: 'SEO-optimized texts',
+    feature14_3: 'Various content genres',
+    feature14_4: 'CMS integration',
+    feature14_5: 'Tone of voice settings',
+    feature14_6: 'Product descriptions',
+
+    // Service features - Virtual Assistant
+    feature15_1: 'Voice and text control',
+    feature15_2: 'Reminders and calendar',
+    feature15_3: 'Appointment booking',
+    feature15_4: 'FAQ answers',
+    feature15_5: 'Smartphone sync',
+    feature15_6: 'Personalized tips',
+
+    // Service features - Monitoring Agent
+    feature16_1: 'Website traffic tracking',
+    feature16_2: 'Social media analysis',
+    feature16_3: 'Sales monitoring',
+    feature16_4: 'Anomaly alerts',
+    feature16_5: 'Real-time reports',
+    feature16_6: 'Analytics integration',
+
     // Project Description
     projectDescription: 'Project Description',
     technologies: 'Technologies',
@@ -917,6 +1037,18 @@ const translations = {
     portfolioSiteDescription: 'Персональный сайт для демонстрации ваших работ и достижений',
     mediaPortalTitle: 'Медиа-портал',
     mediaPortalDescription: 'Новостной портал или блог с системою публикаций и комментариев',
+    aiChatAgentTitle: 'AI-чат-агент',
+    aiChatAgentDescription: 'Мультиканальный чат-бот для обработки запросов клиентов в реальном времени с интеграцией в мессенджеры и CRM',
+    recommendationAgentTitle: 'Рекомендательный агент',
+    recommendationAgentDescription: 'Система персонализированных рекомендаций товаров или контента на основе поведения пользователей',
+    analyticsAgentTitle: 'Аналитический AI-агент',
+    analyticsAgentDescription: 'Автоматизированная обработка и визуализация больших данных с прогнозами и отчетностью',
+    contentGeneratorTitle: 'Контент-генератор',
+    contentGeneratorDescription: 'AI-инструмент для создания статей, описаний товаров и маркетинговых текстов',
+    virtualAssistantTitle: 'Виртуальный ассистент',
+    virtualAssistantDescription: 'Голосовой или текстовый агент для бронирования, напоминаний и базовых консультаций',
+    monitoringAgentTitle: 'Мониторинговый агент',
+    monitoringAgentDescription: 'Система отслеживания ключевых метрик (сайт, соцсети, продажи) с мгновенными уведомлениями',
 
     // Additional Services
     logoDesignTitle: 'Дизайн логотипа',
@@ -1106,6 +1238,54 @@ const translations = {
     feature6_4: 'Рассылка новостей',
     feature6_5: 'Социальные сети',
     feature6_6: 'Пошук по сайту',
+
+    // Service features - AI Chat Agent
+    feature11_1: 'Мгновенные ответы 24/7',
+    feature11_2: 'Интеграция с мессенджерами',
+    feature11_3: 'Поддержка нескольких языков',
+    feature11_4: 'Аналитика запросов',
+    feature11_5: 'Простая настройка сценариев',
+    feature11_6: 'Связь с CRM',
+
+    // Service features - Recommendation Agent
+    feature12_1: 'Персонализированные рекомендации',
+    feature12_2: 'Анализ поведения пользователей',
+    feature12_3: 'Интеграция с каталогом',
+    feature12_4: 'Гибкие правила',
+    feature12_5: 'Статистика эффективности',
+    feature12_6: 'Масштабируемость',
+
+    // Service features - Analytical AI Agent
+    feature13_1: 'Автоматическая обработка данных',
+    feature13_2: 'Интерактивные дашборды',
+    feature13_3: 'Прогнозирование трендов',
+    feature13_4: 'Экспорт отчетов',
+    feature13_5: 'Интеграция с BI системами',
+    feature13_6: 'Поддержка больших данных',
+
+    // Service features - Content Generator
+    feature14_1: 'Быстрое создание статей',
+    feature14_2: 'SEO-оптимизированные тексты',
+    feature14_3: 'Разные жанры контента',
+    feature14_4: 'Интеграция с CMS',
+    feature14_5: 'Настройка тона голоса',
+    feature14_6: 'Генерация описаний товаров',
+
+    // Service features - Virtual Assistant
+    feature15_1: 'Голосовое и текстовое управление',
+    feature15_2: 'Напоминания и календарь',
+    feature15_3: 'Бронирование встреч',
+    feature15_4: 'Ответы на FAQ',
+    feature15_5: 'Синхронизация со смартфоном',
+    feature15_6: 'Персонализированные советы',
+
+    // Service features - Monitoring Agent
+    feature16_1: 'Отслеживание трафика сайта',
+    feature16_2: 'Анализ соцсетей',
+    feature16_3: 'Контроль продаж',
+    feature16_4: 'Сигналы при отклонениях',
+    feature16_5: 'Отчеты в реальном времени',
+    feature16_6: 'Интеграция с аналитикой',
 
     // Project Description
     projectDescription: 'Описание проекта',

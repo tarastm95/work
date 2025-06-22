@@ -58,7 +58,13 @@ const Header: React.FC = () => {
       '3': t('landingPageTitle'),
       '4': t('corporateWebsiteTitle'),
       '5': t('portfolioSiteTitle'),
-      '6': t('mediaPortalTitle')
+      '6': t('mediaPortalTitle'),
+      '11': t('aiChatAgentTitle'),
+      '12': t('recommendationAgentTitle'),
+      '13': t('analyticsAgentTitle'),
+      '14': t('contentGeneratorTitle'),
+      '15': t('virtualAssistantTitle'),
+      '16': t('monitoringAgentTitle')
     };
     return titleMap[serviceId] || services.find(s => s.id === serviceId)?.title || '';
   };
