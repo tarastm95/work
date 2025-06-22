@@ -73,8 +73,9 @@ const Testimonials: React.FC = () => {
           <div className="relative">
             {/* Main testimonial */}
             <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-8 md:p-12 rounded-2xl border border-gray-700 text-center min-h-[300px] flex flex-col justify-center">
-              <div className="text-6xl mb-4">
-                {testimonials[currentIndex].avatar}
+              <div className="relative mb-4 flex items-center justify-center w-20 h-20 mx-auto">
+                <span className="absolute inline-flex h-full w-full rounded-full bg-blue-500 opacity-75 animate-ping"></span>
+                <span className="relative text-6xl">{testimonials[currentIndex].avatar}</span>
               </div>
               
               <blockquote className="text-lg md:text-xl text-gray-300 leading-relaxed mb-6 italic">
@@ -138,7 +139,10 @@ const Testimonials: React.FC = () => {
               onClick={() => setCurrentIndex(index)}
             >
               <div className="flex items-center mb-4">
-                <span className="text-2xl mr-3">{testimonial.avatar}</span>
+                <span className="relative flex mr-3 w-8 h-8 items-center justify-center">
+                  <span className="absolute inline-flex h-full w-full rounded-full bg-blue-500 opacity-75 animate-ping"></span>
+                  <span className="relative text-2xl">{testimonial.avatar}</span>
+                </span>
                 <div>
                   <p className="text-white font-medium">{testimonial.name}</p>
                   <p className="text-gray-400 text-sm">{testimonial.position}</p>

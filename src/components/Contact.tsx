@@ -98,7 +98,7 @@ const Contact: React.FC = () => {
               </h3>
               
               <form onSubmit={handleSubmit} className="space-y-6">
-                <div>
+                <div className="animate-fade-in" style={{ animationDelay: '0ms' }}>
                   <label htmlFor="name" className="block text-gray-300 mb-2">
                     {t('nameLabel')} *
                   </label>
@@ -114,7 +114,7 @@ const Contact: React.FC = () => {
                   />
                 </div>
 
-                <div>
+                <div className="animate-fade-in" style={{ animationDelay: '100ms' }}>
                   <label htmlFor="email" className="block text-gray-300 mb-2">
                     {t('emailLabel')} *
                   </label>
@@ -130,7 +130,7 @@ const Contact: React.FC = () => {
                   />
                 </div>
 
-                <div>
+                <div className="animate-fade-in" style={{ animationDelay: '200ms' }}>
                   <label htmlFor="phone" className="block text-gray-300 mb-2">
                     {t('phoneLabel')}
                   </label>
@@ -145,7 +145,7 @@ const Contact: React.FC = () => {
                   />
                 </div>
 
-                <div>
+                <div className="animate-fade-in" style={{ animationDelay: '300ms' }}>
                   <label htmlFor="message" className="block text-gray-300 mb-2">
                     {t('messageLabel')} *
                   </label>
@@ -163,7 +163,8 @@ const Contact: React.FC = () => {
 
                 <button
                   type="submit"
-                  className="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white py-3 rounded-lg hover:from-blue-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 font-medium"
+                  className="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white py-3 rounded-lg transition-transform duration-300 hover:-translate-y-1 hover:scale-105 hover:from-blue-600 hover:to-purple-700 animate-fade-in"
+                  style={{ animationDelay: '400ms' }}
                 >
                   {t('sendButton')}
                 </button>

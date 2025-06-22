@@ -59,7 +59,7 @@ const HeroSlider: React.FC = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden font-poppins">
+    <section className="min-h-screen flex items-center justify-center relative overflow-hidden font-poppins animate-fade-in">
       {/* Enhanced Background with mesh gradient */}
       <div className={`absolute inset-0 bg-gradient-to-br ${slides[currentSlide].bgGradient} transition-all duration-1000`}>
         {/* Animated Background Elements with more variety */}
@@ -92,7 +92,10 @@ const HeroSlider: React.FC = () => {
             </span>
           </h1>
           
-          <p className="text-xl md:text-2xl lg:text-3xl text-gray-100 mb-10 leading-relaxed max-w-4xl mx-auto animate-fade-in-up font-light" style={{ animationDelay: '0.2s' }}>
+          <p
+            className="text-xl md:text-2xl lg:text-3xl text-gray-100 mb-10 leading-relaxed max-w-4xl mx-auto overflow-hidden whitespace-nowrap border-r-2 border-gray-100 animate-typing font-light"
+            style={{ animationDelay: '0.2s' }}
+          >
             {slides[currentSlide].subtitle}
           </p>
           
