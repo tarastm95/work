@@ -20,6 +20,9 @@ const translations = {
     heroSlide3Title: 'Ваш успіх - наш пріоритет',
     heroSlide3Subtitle: 'Створюємо рішення, які приносять реальні результати та збільшують ваші продажі',
     heroSlide3Highlight: '⚡ Швидка реалізація проектів',
+    heroSlide4Title: 'Інтелектуальні AI-агенти',
+    heroSlide4Subtitle: 'Персоналізовані рішення з використанням передових алгоритмів',
+    heroSlide4Highlight: '🤖 Інноваційні AI-можливості',
     orderNow: 'Замовити зараз',
     viewWork: 'Переглянути роботи',
 
@@ -385,6 +388,9 @@ const translations = {
     heroSlide3Title: 'Your success is our priority',
     heroSlide3Subtitle: 'We create solutions that bring real results and increase your sales',
     heroSlide3Highlight: '⚡ Fast project implementation',
+    heroSlide4Title: 'Intelligent AI agents',
+    heroSlide4Subtitle: 'Personalized solutions using advanced algorithms',
+    heroSlide4Highlight: '🤖 Innovative AI capabilities',
     orderNow: 'Order Now',
     viewWork: 'View Work',
 
@@ -750,6 +756,9 @@ const translations = {
     heroSlide3Title: 'Ваш успех - наш приоритет',
     heroSlide3Subtitle: 'Создаем решения, которые приносят реальные результаты и увеличивают ваши продажи',
     heroSlide3Highlight: '⚡ Быстрая реализация проектов',
+    heroSlide4Title: 'Интеллектуальные AI-агенты',
+    heroSlide4Subtitle: 'Персонализированные решения с использованием передовых алгоритмов',
+    heroSlide4Highlight: '🤖 Инновационные AI-возможности',
     orderNow: 'Заказать сейчас',
     viewWork: 'Посмотреть работы',
 
