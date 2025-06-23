@@ -664,6 +664,7 @@ const ServiceDetail: React.FC = () => {
                       </li>
                     ))}
                   </ul>
+                  <p className="text-gray-300 mt-8 text-center">{t('caCTA')}</p>
                 </div>
               )}
 
@@ -688,6 +689,7 @@ const ServiceDetail: React.FC = () => {
                       </li>
                     ))}
                   </ul>
+                  <p className="text-gray-300 mt-8 text-center">{t('raCTA')}</p>
                 </div>
               )}
 
@@ -711,6 +713,7 @@ const ServiceDetail: React.FC = () => {
                       </li>
                     ))}
                   </ul>
+                  <p className="text-gray-300 mt-8 text-center">{t('aaCTA')}</p>
                 </div>
               )}
 
@@ -734,6 +737,7 @@ const ServiceDetail: React.FC = () => {
                       </li>
                     ))}
                   </ul>
+                  <p className="text-gray-300 mt-8 text-center">{t('cgCTA')}</p>
                 </div>
               )}
 
@@ -757,6 +761,7 @@ const ServiceDetail: React.FC = () => {
                       </li>
                     ))}
                   </ul>
+                  <p className="text-gray-300 mt-8 text-center">{t('vaCTA')}</p>
                 </div>
               )}
 
@@ -780,6 +785,7 @@ const ServiceDetail: React.FC = () => {
                       </li>
                     ))}
                   </ul>
+                  <p className="text-gray-300 mt-8 text-center">{t('maCTA')}</p>
                 </div>
               )}
             </div>

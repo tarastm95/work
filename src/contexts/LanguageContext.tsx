@@ -487,6 +487,14 @@ const translations = {
     maBenefit5: 'Інтеграція з існуючими аналітичними системами',
     maBenefit6: 'Швидкий час впровадження і простота використання',
 
+    // Service CTAs
+    caCTA: 'Готові підвищити лояльність клієнтів і автоматизувати обробку звернень? Замовте AI-чат-агента вже сьогодні та отримайте готове рішення за 22 500 ₴!',
+    raCTA: 'Готові підвищити продажі та утримання клієнтів? Замовити зараз і отримати персоналізовані рекомендації вже за місяць!',
+    aaCTA: 'Готові отримувати глибокі інсайти та підвищити ефективність бізнесу? Замовити зараз та отримати перші результати вже за півтора місяці!',
+    cgCTA: 'Готові прискорити та масштабувати створення контенту? Замовити зараз та отримати перший пакет текстів вже за місяць!',
+    vaCTA: 'Готові підвищити рівень обслуговування й автоматизувати рутину? Замовити зараз і отримати робочий віртуальний асистент за місяць!',
+    maCTA: 'Готові контролювати всі бізнес-метрики в режимі реального часу? Замовити зараз та отримати повний моніторинг за два тижні!'
+
     // WordPress Store Advantages
     wpBenefitsTitle: 'Переваги створення інтернет-магазину на CMS WordPress (з WooCommerce):',
     wpBenefit1: 'Швидкий старт за помірний бюджет',
@@ -1117,6 +1125,14 @@ const translations = {
     maBenefit5: 'Integration with existing analytics systems',
     maBenefit6: 'Quick implementation and ease of use',
 
+    // Service CTAs
+    caCTA: 'Ready to boost customer loyalty and automate requests? Order the AI Chat Agent today and get a complete solution for 22,500 ₴!',
+    raCTA: 'Ready to increase sales and retention? Order now to get personalized recommendations in just a month!',
+    aaCTA: 'Ready to gain deep insights and boost efficiency? Order now to get the first results in a month and a half!',
+    cgCTA: 'Ready to accelerate and scale content creation? Order now and receive your first batch of texts in a month!',
+    vaCTA: 'Ready to enhance service and automate routine tasks? Order now and get a working virtual assistant in a month!',
+    maCTA: 'Ready to monitor all metrics in real time? Order now to get full monitoring within two weeks!'
+
     // WordPress Store Advantages
     wpBenefitsTitle: 'Advantages of creating an online store with WordPress (WooCommerce):',
     wpBenefit1: 'Quick start on a modest budget',
@@ -1746,6 +1762,14 @@ const translations = {
     maBenefit4: 'Контроль продаж в реальном времени',
     maBenefit5: 'Интеграция с существующими аналитическими системами',
     maBenefit6: 'Быстрое внедрение и простота использования',
+
+    // Service CTAs
+    caCTA: 'Готовы повысить лояльность клиентов и автоматизировать обработку обращений? Закажите AI-чат-агента уже сегодня и получите готовое решение за 22 500 ₴!',
+    raCTA: 'Готовы увеличить продажи и удержание клиентов? Закажите сейчас и получите персонализированные рекомендации уже через месяц!',
+    aaCTA: 'Готовы получать глубокие инсайты и повысить эффективность бизнеса? Закажите сейчас и получите первые результаты уже через полтора месяца!',
+    cgCTA: 'Готовы ускорить и масштабировать создание контента? Закажите сейчас и получите первый пакет текстов уже через месяц!',
+    vaCTA: 'Готовы повысить уровень обслуживания и автоматизировать рутину? Закажите сейчас и получите работающего виртуального ассистента через месяц!',
+    maCTA: 'Готовы контролировать все бизнес-метрики в режиме реального времени? Закажите сейчас и получите полный мониторинг за две недели!'
 
     // WordPress Store Advantages
     wpBenefitsTitle: 'Преимущества создания интернет-магазина на WordPress (WooCommerce):',
