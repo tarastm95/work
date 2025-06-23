@@ -311,7 +311,7 @@ const ServiceDetail: React.FC = () => {
       </section>
 
       {/* Additional Info Section */}
-      {(service.id === '1' || service.id === '2' || service.id === '3') && (
+      {(service.id === '1' || service.id === '2' || service.id === '3' || service.id === '4' || service.id === '5' || service.id === '6') && (
         <section className="py-20 bg-gray-900">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto space-y-16">
@@ -471,8 +471,171 @@ const ServiceDetail: React.FC = () => {
                         </li>
                       ))}
                     </ul>
+                  <p className="text-gray-300 mt-8 text-center">
+                    {t('lpConclusion')}
+                  </p>
+                </div>
+              </>
+              )}
+
+              {service.id === '4' && (
+                <>
+                  <div>
+                    <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-8">
+                      {t('cwBenefitsTitle')}
+                    </h2>
+                    <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      {[
+                        'cwBenefit1',
+                        'cwBenefit2',
+                        'cwBenefit3',
+                        'cwBenefit4',
+                        'cwBenefit5',
+                        'cwBenefit6',
+                        'cwBenefit7'
+                      ].map((key, idx) => (
+                        <li key={idx} className="flex items-start gap-3">
+                          <CheckCircle className="text-green-400 mt-1" size={20} />
+                          <span className="text-gray-300">{t(key)}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-2xl font-bold text-white text-center mb-8">
+                      {t('cwServiceTitle')}
+                    </h3>
+                    <ul className="space-y-4">
+                      {[
+                        'cwService1',
+                        'cwService2',
+                        'cwService3',
+                        'cwService4',
+                        'cwService5',
+                        'cwService6',
+                        'cwService7',
+                        'cwService8',
+                        'cwService9',
+                        'cwService10'
+                      ].map((key, idx) => (
+                        <li key={idx} className="flex items-start gap-3">
+                          <CheckCircle className="text-green-400 mt-1" size={20} />
+                          <span className="text-gray-300">{t(key)}</span>
+                        </li>
+                      ))}
+                    </ul>
                     <p className="text-gray-300 mt-8 text-center">
-                      {t('lpConclusion')}
+                      {t('cwConclusion')}
+                    </p>
+                  </div>
+                </>
+              )}
+
+              {service.id === '5' && (
+                <>
+                  <div>
+                    <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-8">
+                      {t('pfBenefitsTitle')}
+                    </h2>
+                    <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      {[
+                        'pfBenefit1',
+                        'pfBenefit2',
+                        'pfBenefit3',
+                        'pfBenefit4',
+                        'pfBenefit5',
+                        'pfBenefit6',
+                        'pfBenefit7'
+                      ].map((key, idx) => (
+                        <li key={idx} className="flex items-start gap-3">
+                          <CheckCircle className="text-green-400 mt-1" size={20} />
+                          <span className="text-gray-300">{t(key)}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-2xl font-bold text-white text-center mb-8">
+                      {t('pfServiceTitle')}
+                    </h3>
+                    <ul className="space-y-4">
+                      {[
+                        'pfService1',
+                        'pfService2',
+                        'pfService3',
+                        'pfService4',
+                        'pfService5',
+                        'pfService6',
+                        'pfService7',
+                        'pfService8',
+                        'pfService9',
+                        'pfService10'
+                      ].map((key, idx) => (
+                        <li key={idx} className="flex items-start gap-3">
+                          <CheckCircle className="text-green-400 mt-1" size={20} />
+                          <span className="text-gray-300">{t(key)}</span>
+                        </li>
+                      ))}
+                    </ul>
+                    <p className="text-gray-300 mt-8 text-center">
+                      {t('pfConclusion')}
+                    </p>
+                  </div>
+                </>
+              )}
+
+              {service.id === '6' && (
+                <>
+                  <div>
+                    <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-8">
+                      {t('mpBenefitsTitle')}
+                    </h2>
+                    <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      {[
+                        'mpBenefit1',
+                        'mpBenefit2',
+                        'mpBenefit3',
+                        'mpBenefit4',
+                        'mpBenefit5',
+                        'mpBenefit6',
+                        'mpBenefit7',
+                        'mpBenefit8',
+                        'mpBenefit9'
+                      ].map((key, idx) => (
+                        <li key={idx} className="flex items-start gap-3">
+                          <CheckCircle className="text-green-400 mt-1" size={20} />
+                          <span className="text-gray-300">{t(key)}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-2xl font-bold text-white text-center mb-8">
+                      {t('mpServiceTitle')}
+                    </h3>
+                    <ul className="space-y-4">
+                      {[
+                        'mpService1',
+                        'mpService2',
+                        'mpService3',
+                        'mpService4',
+                        'mpService5',
+                        'mpService6',
+                        'mpService7',
+                        'mpService8',
+                        'mpService9',
+                        'mpService10',
+                        'mpService11',
+                        'mpService12'
+                      ].map((key, idx) => (
+                        <li key={idx} className="flex items-start gap-3">
+                          <CheckCircle className="text-green-400 mt-1" size={20} />
+                          <span className="text-gray-300">{t(key)}</span>
+                        </li>
+                      ))}
+                    </ul>
+                    <p className="text-gray-300 mt-8 text-center">
+                      {t('mpConclusion')}
                     </p>
                   </div>
                 </>
