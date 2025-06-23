@@ -23,6 +23,9 @@ const translations = {
     heroSlide4Title: 'Інтелектуальні AI-агенти',
     heroSlide4Subtitle: 'Персоналізовані рішення з використанням передових алгоритмів',
     heroSlide4Highlight: '🤖 Інноваційні AI-можливості',
+    seoTitle: 'AI Lab | Створення сучасних сайтів для вашого бізнесу',
+    seoDescription:
+      'Професійна веб-студія AI Lab створює ефективні сайти: інтернет-магазини, освітні платформи, лендінги. Знижка 50% на всі послуги!',
     orderNow: 'Замовити зараз',
     viewWork: 'Переглянути роботи',
 
@@ -654,6 +657,9 @@ const translations = {
     heroSlide4Title: 'Intelligent AI agents',
     heroSlide4Subtitle: 'Personalized solutions using advanced algorithms',
     heroSlide4Highlight: '🤖 Innovative AI capabilities',
+    seoTitle: 'AI Lab | Modern websites for your business',
+    seoDescription:
+      'AI Lab is a professional web studio creating effective solutions: online stores, educational platforms, landing pages. 50% discount on all services!',
     orderNow: 'Order Now',
     viewWork: 'View Work',
 
@@ -1285,6 +1291,9 @@ const translations = {
     heroSlide4Title: 'Интеллектуальные AI-агенты',
     heroSlide4Subtitle: 'Персонализированные решения с использованием передовых алгоритмов',
     heroSlide4Highlight: '🤖 Инновационные AI-возможности',
+    seoTitle: 'AI Lab | Создание современных сайтов для вашего бизнеса',
+    seoDescription:
+      'Профессиональная веб-студия AI Lab создает эффективные сайты: интернет-магазины, образовательные платформы, лендинги. Скидка 50% на все услуги!',
     orderNow: 'Заказать сейчас',
     viewWork: 'Посмотреть работы',
 
@@ -1915,7 +1924,16 @@ interface LanguageProviderProps {
 export const LanguageProvider: React.FC<LanguageProviderProps> = ({
   children,
 }) => {
-  const [language, setLanguage] = useState<Language>((localStorage.getItem('language') as Language) || 'uk');
+  const getDefaultLanguage = (): Language => {
+    const stored = localStorage.getItem('language') as Language | null;
+    if (stored) return stored;
+    const browser = navigator.language.slice(0, 2).toLowerCase();
+    if (browser === 'uk' || browser === 'ua') return 'uk';
+    if (browser === 'ru') return 'ru';
+    return 'en';
+  };
+
+  const [language, setLanguage] = useState<Language>(getDefaultLanguage());
 
   useEffect(() => {
     localStorage.setItem('language', language);

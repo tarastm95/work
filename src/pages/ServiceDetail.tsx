@@ -5,6 +5,7 @@ import { useAppSelector } from '../hooks/useAppSelector';
 import { useLanguage } from '../contexts/LanguageContext';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import SEO from '../components/SEO';
 import { ArrowLeft, CheckCircle, Star, Clock, Users, Zap } from 'lucide-react';
 
 const ServiceDetail: React.FC = () => {
@@ -209,6 +210,7 @@ const ServiceDetail: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-900">
       <Header />
+      <SEO title={`${serviceTitle} | AI Lab`} description={serviceDescription} />
       
       {/* Hero Section */}
       <section className="pt-24 pb-12 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 relative overflow-hidden">
