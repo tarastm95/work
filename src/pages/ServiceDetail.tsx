@@ -319,50 +319,50 @@ const ServiceDetail: React.FC = () => {
                 <>
                   <div>
                     <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-8">
-                      Переваги створення інтернет-магазину на CMS WordPress (з WooCommerce):
+                      {t('wpBenefitsTitle')}
                     </h2>
                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       {[
-                        'Швидкий старт і низька вартість розробки',
-                        'Інтуїтивна адмін-панель',
-                        'Велика бібліотека розширень',
-                        'SEO-дружність «з коробки»',
-                        'Гнучкість і масштабованість',
-                        'Багатомовність і мультирегіональність',
-                        'Активна спільнота та регулярні оновлення'
-                      ].map((item, idx) => (
+                        'wpBenefit1',
+                        'wpBenefit2',
+                        'wpBenefit3',
+                        'wpBenefit4',
+                        'wpBenefit5',
+                        'wpBenefit6',
+                        'wpBenefit7'
+                      ].map((key, idx) => (
                         <li key={idx} className="flex items-start gap-3">
                           <CheckCircle className="text-green-400 mt-1" size={20} />
-                          <span className="text-gray-300">{item}</span>
+                          <span className="text-gray-300">{t(key)}</span>
                         </li>
                       ))}
                     </ul>
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold text-white text-center mb-8">
-                      Що ми пропонуємо в рамках розробки інтернет-магазину на WordPress:
+                      {t('wpOfferTitle')}
                     </h3>
                     <ul className="space-y-4">
                       {[
-                        'Індивідуальний UI/UX-дизайн під ваш бренд із урахуванням поведінки користувачів.',
-                        'Налаштування та кастомізація WooCommerce: товари, категорії, атрибути, варіації.',
-                        'Інтеграція з платіжними шлюзами (LiqPay, Fondy, PayPal, Stripe тощо) та службами доставки.',
-                        'Підключення CRM (Bitrix24, amoCRM, Pipedrive) і маркетингових сервісів (розсилки, чат-боти).',
-                        'Оптимізація швидкодії: кешування, зображення WebP, CDN, мінімізація запитів.',
-                        'СЕО-оптимізація та семантичний HTML: технічний аудит, налаштування метаданих, швидкість завантаження.',
-                        'Налаштування багатомовності та локалізації під будь-які ринки.',
-                        'Аналітика та звітність: підключення Google Analytics, Google Tag Manager, створення кастомних звітів.',
-                        'Навчання та передача проєкту: детальна документація і відео-інструкції для вашої команди.',
-                        'Технічна підтримка та супровід: оновлення платформи, моніторинг безпеки, резервне копіювання.'
-                      ].map((item, idx) => (
+                        'wpOffer1',
+                        'wpOffer2',
+                        'wpOffer3',
+                        'wpOffer4',
+                        'wpOffer5',
+                        'wpOffer6',
+                        'wpOffer7',
+                        'wpOffer8',
+                        'wpOffer9',
+                        'wpOffer10'
+                      ].map((key, idx) => (
                         <li key={idx} className="flex items-start gap-3">
                           <CheckCircle className="text-green-400 mt-1" size={20} />
-                          <span className="text-gray-300">{item}</span>
+                          <span className="text-gray-300">{t(key)}</span>
                         </li>
                       ))}
                     </ul>
                     <p className="text-gray-300 mt-8 text-center">
-                      З таким підходом ви отримаєте гнучкий, масштабований і максимально ефективний інструмент продажів, готовий до швидкого зростання та адаптації під будь-які бізнес-задачі.
+                      {t('wpConclusion')}
                     </p>
                   </div>
                 </>
@@ -372,53 +372,53 @@ const ServiceDetail: React.FC = () => {
                 <>
                   <div>
                     <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-8">
-                      Переваги власної освітньої платформи «з нуля»:
+                      {t('eduBenefitsTitle')}
                     </h2>
                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       {[
-                        'Повний контроль над функціональністю та дизайном',
-                        'Максимальна продуктивність та швидкість завантаження',
-                        'Гнучка архітектура та масштабованість',
-                        'Високий рівень безпеки',
-                        'Інтеграція зі сторонніми розробками',
-                        'Унікальний UX/UI під ваш бренд',
-                        'Мобільна доступність',
-                        'Аналітика в реальному часі'
-                      ].map((item, idx) => (
+                        'eduBenefit1',
+                        'eduBenefit2',
+                        'eduBenefit3',
+                        'eduBenefit4',
+                        'eduBenefit5',
+                        'eduBenefit6',
+                        'eduBenefit7',
+                        'eduBenefit8'
+                      ].map((key, idx) => (
                         <li key={idx} className="flex items-start gap-3">
                           <CheckCircle className="text-green-400 mt-1" size={20} />
-                          <span className="text-gray-300">{item}</span>
+                          <span className="text-gray-300">{t(key)}</span>
                         </li>
                       ))}
                     </ul>
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold text-white text-center mb-8">
-                      Що входить у нашу послугу “Освітня платформа”:
+                      {t('eduServiceTitle')}
                     </h3>
                     <ul className="space-y-4">
                       {[
-                        'Дослідження та прототипування: аналіз цільової аудиторії та побудова зручної структури курсів.',
-                        'UI/UX-дизайн: макети всіх ключових екранів (реєстрація, кабінет, плеєр, тестування).',
-                        'Відеоплеєр HD з підтримкою адаптивних битрейтів, субтитрів і захистом контенту.',
-                        'Система тестів та завдань з таймером, варіативним набором запитань і детальною статистикою.',
-                        'Персональні кабінети студентів з прогрес-баром, історією проходження та дашбордом результатів.',
-                        'Генерація сертифікатів у PDF з динамічними даними і можливістю завантажити або надіслати на email.',
-                        'Форум/чат для обговорень із підтримкою тем, приватних повідомлень та модерації.',
-                        'Розробка мобільного рішення (iOS/Android або PWA) для офлайн-доступу до уроків.',
-                        'Інтеграція з платіжними шлюзами (LiqPay, Fondy, PayPal тощо) та автоматизація підписок.',
-                        'Підключення аналітики й CRM (Google Analytics, Tag Manager, Bitrix24, amoCRM) для відстеження лідів і звітності.',
-                        'Тестування та оптимізація: навантажувальні тести, SEO-аудит, рекомендації з UX.',
-                        'Супровід і підтримка: оновлення функцій, безпекові патчі, резервне копіювання та консультації.'
-                      ].map((item, idx) => (
+                        'eduService1',
+                        'eduService2',
+                        'eduService3',
+                        'eduService4',
+                        'eduService5',
+                        'eduService6',
+                        'eduService7',
+                        'eduService8',
+                        'eduService9',
+                        'eduService10',
+                        'eduService11',
+                        'eduService12'
+                      ].map((key, idx) => (
                         <li key={idx} className="flex items-start gap-3">
                           <CheckCircle className="text-green-400 mt-1" size={20} />
-                          <span className="text-gray-300">{item}</span>
+                          <span className="text-gray-300">{t(key)}</span>
                         </li>
                       ))}
                     </ul>
                     <p className="text-gray-300 mt-8 text-center">
-                      Готові вивести свій онлайн-курс на новий рівень? Замовте зараз та отримаєте повний пакет «під ключ».
+                      {t('eduConclusion')}
                     </p>
                   </div>
                 </>
