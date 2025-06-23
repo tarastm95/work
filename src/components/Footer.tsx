@@ -20,7 +20,13 @@ const Footer: React.FC = () => {
     t('landingPage'),
     t('corporateWebsite'),
     t('portfolio'),
-    t('mediaPortal')
+    t('mediaPortal'),
+    t('aiChatAgentTitle'),
+    t('recommendationAgentTitle'),
+    t('analyticsAgentTitle'),
+    t('contentGeneratorTitle'),
+    t('virtualAssistantTitle'),
+    t('monitoringAgentTitle')
   ];
 
   const company = [
