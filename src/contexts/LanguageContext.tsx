@@ -303,6 +303,7 @@ const translations = {
     completedProjects: 'Завершених проектів',
     averageConversion: 'Середня конверсія',
     averageDevelopmentTime: 'Середній час розробки',
+    resultsTitle: 'Результати, що говорять самі за себе',
     whatIsIncluded: 'Що входить в послугу?',
     howItWorks: 'Як проходить робота?',
     clientReviews: 'Відгуки клієнтів',
@@ -430,6 +431,61 @@ const translations = {
     feature16_4: 'Сповіщення про відхилення',
     feature16_5: 'Звіти в реальному часі',
     feature16_6: 'Інтеграція з аналітикою',
+
+    // AI Chat Agent Benefits
+    caBenefitsTitle: 'Чому варто обрати наш AI-чат-агент?',
+    caBenefit1: 'Швидкість і доступність',
+    caBenefit2: 'Мультиканальність',
+    caBenefit3: 'Глибока інтеграція з CRM',
+    caBenefit4: 'Підтримка кількох мов',
+    caBenefit5: 'Аналітика та звітність',
+    caBenefit6: 'Інтуїтивне налаштування сценаріїв',
+
+    // Recommendation Agent Benefits
+    raBenefitsTitle: 'Переваги Рекомендаційного агента для вашого бізнесу:',
+    raBenefit1: 'Персоналізація в реальному часі',
+    raBenefit2: 'Зростання середнього чеку та лояльності',
+    raBenefit3: 'Глибокий аналіз поведінки',
+    raBenefit4: 'Легка інтеграція з каталогом',
+    raBenefit5: 'Гнучкі правила і сценарії',
+    raBenefit6: 'Повна статистика ефективності',
+    raBenefit7: 'Масштабованість',
+
+    // Analytical AI Agent Benefits
+    aaBenefitsTitle: 'Переваги Аналітичного AI-агента для вашого бізнесу:',
+    aaBenefit1: 'Швидка обробка великих обсягів даних',
+    aaBenefit2: 'Інтерактивні дашборди в реальному часі',
+    aaBenefit3: 'Прогнозування трендів',
+    aaBenefit4: 'Експорт звітів',
+    aaBenefit5: 'Інтеграція з BI-системами',
+    aaBenefit6: 'Підтримка Big Data',
+
+    // Content Generator Benefits
+    cgBenefitsTitle: 'Переваги AI-контент-генератора для вашого бізнесу:',
+    cgBenefit1: 'Швидке створення якісного контенту',
+    cgBenefit2: 'SEO-оптимізовані матеріали',
+    cgBenefit3: 'Універсальність жанрів',
+    cgBenefit4: 'Інтеграція з вашою CMS',
+    cgBenefit5: 'Кастомізація тону голосу',
+    cgBenefit6: 'Опис товарів із «вау-ефектом»',
+
+    // Virtual Assistant Benefits
+    vaBenefitsTitle: 'Переваги Віртуального асистента для вашого бізнесу:',
+    vaBenefit1: 'Універсальність спілкування',
+    vaBenefit2: 'Автоматичні нагадування та календар',
+    vaBenefit3: 'Бронювання онлайн',
+    vaBenefit4: 'Миттєві відповіді на FAQ',
+    vaBenefit5: 'Синхронізація зі смартфоном',
+    vaBenefit6: 'Персоналізовані поради',
+
+    // Monitoring Agent Benefits
+    maBenefitsTitle: 'Переваги Моніторингового агента для вашого бізнесу:',
+    maBenefit1: 'Централізоване відстеження метрик',
+    maBenefit2: 'Миттєві сповіщення про відхилення',
+    maBenefit3: 'Глибокий аналіз соцмереж',
+    maBenefit4: 'Контроль продажів у реальному часі',
+    maBenefit5: 'Інтеграція з існуючими аналітичними системами',
+    maBenefit6: 'Швидкий час впровадження і простота використання',
 
     // WordPress Store Advantages
     wpBenefitsTitle: 'Переваги створення інтернет-магазину на CMS WordPress (з WooCommerce):',
@@ -877,6 +933,7 @@ const translations = {
     completedProjects: 'Completed projects',
     averageConversion: 'Average conversion',
     averageDevelopmentTime: 'Average development time',
+    resultsTitle: 'Results that speak for themselves',
     whatIsIncluded: 'What\'s included in the service?',
     howItWorks: 'How does it work?',
     clientReviews: 'Client reviews',
@@ -1004,6 +1061,61 @@ const translations = {
     feature16_4: 'Anomaly alerts',
     feature16_5: 'Real-time reports',
     feature16_6: 'Analytics integration',
+
+    // AI Chat Agent Benefits
+    caBenefitsTitle: 'Why choose our AI Chat Agent?',
+    caBenefit1: 'Speed and availability',
+    caBenefit2: 'Multichannel support',
+    caBenefit3: 'Deep CRM integration',
+    caBenefit4: 'Multiple language support',
+    caBenefit5: 'Analytics and reporting',
+    caBenefit6: 'Intuitive scenario setup',
+
+    // Recommendation Agent Benefits
+    raBenefitsTitle: 'Benefits of the Recommendation Agent for your business:',
+    raBenefit1: 'Real-time personalization',
+    raBenefit2: 'Increased average order value and loyalty',
+    raBenefit3: 'In-depth behavior analysis',
+    raBenefit4: 'Easy catalog integration',
+    raBenefit5: 'Flexible rules and scenarios',
+    raBenefit6: 'Comprehensive performance stats',
+    raBenefit7: 'Scalability',
+
+    // Analytical AI Agent Benefits
+    aaBenefitsTitle: 'Advantages of the Analytical AI Agent for your business:',
+    aaBenefit1: 'Fast processing of large data volumes',
+    aaBenefit2: 'Interactive real-time dashboards',
+    aaBenefit3: 'Trend forecasting',
+    aaBenefit4: 'Report export',
+    aaBenefit5: 'BI system integration',
+    aaBenefit6: 'Big Data support',
+
+    // Content Generator Benefits
+    cgBenefitsTitle: 'Advantages of the AI Content Generator for your business:',
+    cgBenefit1: 'Rapid creation of quality content',
+    cgBenefit2: 'SEO-optimized materials',
+    cgBenefit3: 'Versatility of genres',
+    cgBenefit4: 'Integration with your CMS',
+    cgBenefit5: 'Tone of voice customization',
+    cgBenefit6: 'Product descriptions with wow-effect',
+
+    // Virtual Assistant Benefits
+    vaBenefitsTitle: 'Advantages of the Virtual Assistant for your business:',
+    vaBenefit1: 'Versatile communication',
+    vaBenefit2: 'Automatic reminders and calendar',
+    vaBenefit3: 'Online booking',
+    vaBenefit4: 'Instant FAQ answers',
+    vaBenefit5: 'Smartphone synchronization',
+    vaBenefit6: 'Personalized tips',
+
+    // Monitoring Agent Benefits
+    maBenefitsTitle: 'Advantages of the Monitoring Agent for your business:',
+    maBenefit1: 'Centralized metrics tracking',
+    maBenefit2: 'Instant anomaly alerts',
+    maBenefit3: 'Deep social media analysis',
+    maBenefit4: 'Real-time sales monitoring',
+    maBenefit5: 'Integration with existing analytics systems',
+    maBenefit6: 'Quick implementation and ease of use',
 
     // WordPress Store Advantages
     wpBenefitsTitle: 'Advantages of creating an online store with WordPress (WooCommerce):',
@@ -1451,6 +1563,7 @@ const translations = {
     completedProjects: 'Завершённых проектов',
     averageConversion: 'Средняя конверсия',
     averageDevelopmentTime: 'Среднее время разработки',
+    resultsTitle: 'Результаты, которые говорят сами за себя',
     whatIsIncluded: 'Что входит в услугу?',
     howItWorks: 'Как проходит работа?',
     clientReviews: 'Отзывы клиентов',
@@ -1578,6 +1691,61 @@ const translations = {
     feature16_4: 'Сигналы при отклонениях',
     feature16_5: 'Отчеты в реальном времени',
     feature16_6: 'Интеграция с аналитикой',
+
+    // AI Chat Agent Benefits
+    caBenefitsTitle: 'Почему стоит выбрать нашего AI-чат-агента?',
+    caBenefit1: 'Скорость и доступность',
+    caBenefit2: 'Мультиканальность',
+    caBenefit3: 'Глубокая интеграция с CRM',
+    caBenefit4: 'Поддержка нескольких языков',
+    caBenefit5: 'Аналитика и отчётность',
+    caBenefit6: 'Интуитивная настройка сценариев',
+
+    // Recommendation Agent Benefits
+    raBenefitsTitle: 'Преимущества Рекомендательного агента для вашего бизнеса:',
+    raBenefit1: 'Персонализация в реальном времени',
+    raBenefit2: 'Рост среднего чека и лояльности',
+    raBenefit3: 'Глубокий анализ поведения',
+    raBenefit4: 'Лёгкая интеграция с каталогом',
+    raBenefit5: 'Гибкие правила и сценарии',
+    raBenefit6: 'Полная статистика эффективности',
+    raBenefit7: 'Масштабируемость',
+
+    // Analytical AI Agent Benefits
+    aaBenefitsTitle: 'Преимущества Аналитического AI-агента для вашего бизнеса:',
+    aaBenefit1: 'Быстрая обработка больших объёмов данных',
+    aaBenefit2: 'Интерактивные дашборды в реальном времени',
+    aaBenefit3: 'Прогнозирование трендов',
+    aaBenefit4: 'Экспорт отчётов',
+    aaBenefit5: 'Интеграция с BI-системами',
+    aaBenefit6: 'Поддержка Big Data',
+
+    // Content Generator Benefits
+    cgBenefitsTitle: 'Преимущества AI-контент-генератора для вашего бизнеса:',
+    cgBenefit1: 'Быстрое создание качественного контента',
+    cgBenefit2: 'SEO-оптимизированные материалы',
+    cgBenefit3: 'Универсальность жанров',
+    cgBenefit4: 'Интеграция с вашей CMS',
+    cgBenefit5: 'Кастомизация тона голоса',
+    cgBenefit6: 'Описания товаров с эффектом "вау"',
+
+    // Virtual Assistant Benefits
+    vaBenefitsTitle: 'Преимущества Виртуального ассистента для вашего бизнеса:',
+    vaBenefit1: 'Универсальность общения',
+    vaBenefit2: 'Автоматические напоминания и календарь',
+    vaBenefit3: 'Онлайн-бронирование',
+    vaBenefit4: 'Мгновенные ответы на FAQ',
+    vaBenefit5: 'Синхронизация со смартфоном',
+    vaBenefit6: 'Персонализированные советы',
+
+    // Monitoring Agent Benefits
+    maBenefitsTitle: 'Преимущества Мониторингового агента для вашего бизнеса:',
+    maBenefit1: 'Централизованное отслеживание метрик',
+    maBenefit2: 'Мгновенные уведомления об отклонениях',
+    maBenefit3: 'Глубокий анализ соцсетей',
+    maBenefit4: 'Контроль продаж в реальном времени',
+    maBenefit5: 'Интеграция с существующими аналитическими системами',
+    maBenefit6: 'Быстрое внедрение и простота использования',
 
     // WordPress Store Advantages
     wpBenefitsTitle: 'Преимущества создания интернет-магазина на WordPress (WooCommerce):',
