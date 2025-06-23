@@ -491,7 +491,7 @@ const translations = {
     lpBenefit7: 'Економія бюджету: SPA-підхід дешевший у розробці та підтримці.',
     lpBenefit8: 'Психологія продажу: перевірені UX/UI патерни знижують «страх» покупки.',
 
-    lpServiceTitle: 'Що входить у нашу послугу “Landing Page”:',
+    lpServiceTitle: 'Що входить у нашу послугу «Landing Page»',
     lpService1: 'Індивідуальний дизайн відповідно до вашого бренду та цільової аудиторії',
     lpService2: 'Оптимізація швидкості (завантаження сторінки до 3 сек)',
     lpService3: 'Розробка форми збору контактів з валідацією та захистом від спаму',
@@ -992,7 +992,7 @@ const translations = {
     lpBenefit7: 'Budget saving: simple SPA approach is cheaper to develop and maintain.',
     lpBenefit8: 'Sales psychology: proven UX/UI patterns reduce purchase anxiety.',
 
-    lpServiceTitle: 'What our “Landing Page” service includes:',
+    lpServiceTitle: 'What our "Landing Page" service includes',
     lpService1: 'Custom design tailored to your brand and target audience',
     lpService2: 'Speed optimization (page loads in up to 3 sec)',
     lpService3: 'Contact form development with validation and spam protection',
@@ -1493,7 +1493,7 @@ const translations = {
     lpBenefit7: 'Экономия бюджета: SPA-подход дешевле в разработке и поддержке.',
     lpBenefit8: 'Психология продаж: проверенные UX/UI паттерны снижают страх покупки.',
 
-    lpServiceTitle: 'Что входит в нашу услугу «Landing Page»:',
+    lpServiceTitle: 'Что входит в нашу услугу «Landing Page»',
     lpService1: 'Индивидуальный дизайн под ваш бренд и целевую аудиторию',
     lpService2: 'Оптимизация скорости (загрузка страницы до 3 сек)',
     lpService3: 'Разработка формы сбора контактов с валидацией и защитой от спама',
