@@ -6,6 +6,7 @@ import { useLanguage } from '../contexts/LanguageContext';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { ArrowLeft, CheckCircle, Star, Clock, Users, Zap } from 'lucide-react';
+import ChatBotDemo from '../components/ChatBotDemo';
 
 const ServiceDetail: React.FC = () => {
   const { serviceId } = useParams<{ serviceId: string }>();
@@ -645,28 +646,31 @@ const ServiceDetail: React.FC = () => {
               )}
 
               {service.id === '11' && (
-                <div>
-                  <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-8">
-                    {t('caBenefitsTitle')}
-                  </h2>
-                  <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    {[
-                      'caBenefit1',
-                      'caBenefit2',
-                      'caBenefit3',
-                      'caBenefit4',
-                      'caBenefit5',
-                      'caBenefit6'
-                    ].map((key, idx) => (
-                      <li key={idx} className="flex items-start gap-3">
-                        <CheckCircle className="text-green-400 mt-1" size={20} />
-                        <span className="text-gray-300">{t(key)}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <p className="text-gray-300 mt-8 text-center">
-                    {t('caConclusion')}
-                  </p>
+                <div className="space-y-8">
+                  <div>
+                    <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-8">
+                      {t('caBenefitsTitle')}
+                    </h2>
+                    <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      {[
+                        'caBenefit1',
+                        'caBenefit2',
+                        'caBenefit3',
+                        'caBenefit4',
+                        'caBenefit5',
+                        'caBenefit6'
+                      ].map((key, idx) => (
+                        <li key={idx} className="flex items-start gap-3">
+                          <CheckCircle className="text-green-400 mt-1" size={20} />
+                          <span className="text-gray-300">{t(key)}</span>
+                        </li>
+                      ))}
+                    </ul>
+                    <p className="text-gray-300 mt-8 text-center">
+                      {t('caConclusion')}
+                    </p>
+                  </div>
+                  <ChatBotDemo />
                 </div>
               )}
 
