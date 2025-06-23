@@ -311,7 +311,7 @@ const ServiceDetail: React.FC = () => {
       </section>
 
       {/* Additional Info Section */}
-      {(service.id === '1' || service.id === '2') && (
+      {(service.id === '1' || service.id === '2' || service.id === '4') && (
         <section className="py-20 bg-gray-900">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto space-y-16">
@@ -419,6 +419,60 @@ const ServiceDetail: React.FC = () => {
                     </ul>
                     <p className="text-gray-300 mt-8 text-center">
                       {t('eduConclusion')}
+                    </p>
+                  </div>
+                </>
+              )}
+
+              {service.id === '4' && (
+                <>
+                  <div>
+                    <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-8">
+                      {t('corpBenefitsTitle')}
+                    </h2>
+                    <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      {[
+                        'corpBenefit1',
+                        'corpBenefit2',
+                        'corpBenefit3',
+                        'corpBenefit4',
+                        'corpBenefit5',
+                        'corpBenefit6',
+                        'corpBenefit7'
+                      ].map((key, idx) => (
+                        <li key={idx} className="flex items-start gap-3">
+                          <CheckCircle className="text-green-400 mt-1" size={20} />
+                          <span className="text-gray-300">{t(key)}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-2xl font-bold text-white text-center mb-8">
+                      {t('corpServiceTitle')}
+                    </h3>
+                    <ul className="space-y-4">
+                      {[
+                        'corpService1',
+                        'corpService2',
+                        'corpService3',
+                        'corpService4',
+                        'corpService5',
+                        'corpService6',
+                        'corpService7',
+                        'corpService8',
+                        'corpService9',
+                        'corpService10',
+                        'corpService11'
+                      ].map((key, idx) => (
+                        <li key={idx} className="flex items-start gap-3">
+                          <CheckCircle className="text-green-400 mt-1" size={20} />
+                          <span className="text-gray-300">{t(key)}</span>
+                        </li>
+                      ))}
+                    </ul>
+                    <p className="text-gray-300 mt-8 text-center">
+                      {t('corpConclusion')}
                     </p>
                   </div>
                 </>

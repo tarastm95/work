@@ -480,6 +480,30 @@ const translations = {
     eduService12: 'Постійні оновлення, резервні копії та підтримка',
     eduConclusion: 'Готові зробити ривок у навчанні? Замовляйте платформу вже сьогодні та отримайте рішення під ключ.',
 
+    // Corporate Website Advantages
+    corpBenefitsTitle: 'Переваги корпоративного сайту для вашого бізнесу:',
+    corpBenefit1: 'Підвищення довіри та іміджу',
+    corpBenefit2: 'Генерація лідів і конверсія',
+    corpBenefit3: 'Легке керування контентом',
+    corpBenefit4: 'Розширювана архітектура',
+    corpBenefit5: 'Пошукова оптимізація',
+    corpBenefit6: 'Адаптивність і доступність',
+    corpBenefit7: 'Інтеграція з геосервісами',
+
+    corpServiceTitle: 'Що входить у нашу послугу “Корпоративний сайт”:',
+    corpService1: 'UX/UI-дизайн під корпоративний стиль',
+    corpService2: 'Розробка CMS-модуля',
+    corpService3: 'Багаторівневе меню',
+    corpService4: 'Галерея проектів з фільтрацією',
+    corpService5: 'Блог-система з категоріями',
+    corpService6: 'Контактні форми з валідацією',
+    corpService7: 'Інтеграція Google Maps',
+    corpService8: 'Базова SEO-оптимізація',
+    corpService9: 'Адаптація під мобільні пристрої',
+    corpService10: 'Тестування та запуск',
+    corpService11: 'Передача проєкту та 14 днів підтримки',
+    corpConclusion: 'Готові розпочати? Замовте зараз і отримайте сайт за 2 тижні!',
+
     // Project Description
     projectDescription: 'Опис проекту',
     technologies: 'Технології',
@@ -957,6 +981,30 @@ const translations = {
     eduService12: 'Continuous updates, backups and support',
     eduConclusion: 'Ready to boost your online course? Order now and get a complete turnkey solution.',
 
+    // Corporate Website Advantages
+    corpBenefitsTitle: 'Benefits of a corporate website for your business:',
+    corpBenefit1: 'Enhanced trust and image',
+    corpBenefit2: 'Lead generation and conversion',
+    corpBenefit3: 'Easy content management',
+    corpBenefit4: 'Expandable architecture',
+    corpBenefit5: 'Search engine optimization',
+    corpBenefit6: 'Responsive and accessible',
+    corpBenefit7: 'Geoservices integration',
+
+    corpServiceTitle: 'What our “Corporate Website” service includes:',
+    corpService1: 'UX/UI design in corporate style',
+    corpService2: 'CMS module development',
+    corpService3: 'Multi-level menu',
+    corpService4: 'Project gallery with filtering',
+    corpService5: 'Blog system with categories',
+    corpService6: 'Contact forms with validation',
+    corpService7: 'Google Maps integration',
+    corpService8: 'Basic SEO optimization',
+    corpService9: 'Mobile device adaptation',
+    corpService10: 'Testing and launch',
+    corpService11: 'Project handover and 14 days of support',
+    corpConclusion: 'Ready to start? Order now and get your company website in 2 weeks!',
+
     // Project Description
     projectDescription: 'Project Description',
     technologies: 'Technologies',
@@ -1433,6 +1481,30 @@ const translations = {
     eduService11: 'Нагрузочные и SEO-тесты с рекомендациями',
     eduService12: 'Регулярные обновления, бэкапы и поддержка',
     eduConclusion: 'Готовы вывести свой онлайн-курс на новый уровень? Закажите сейчас и получите решение «под ключ».',
+
+    // Corporate Website Advantages
+    corpBenefitsTitle: 'Преимущества корпоративного сайта для вашего бизнеса:',
+    corpBenefit1: 'Повышение доверия и имиджа',
+    corpBenefit2: 'Генерация лидов и конверсий',
+    corpBenefit3: 'Простое управление контентом',
+    corpBenefit4: 'Масштабируемая архитектура',
+    corpBenefit5: 'Поисковая оптимизация',
+    corpBenefit6: 'Адаптивность и доступность',
+    corpBenefit7: 'Интеграция с геосервисами',
+
+    corpServiceTitle: 'Что входит в нашу услугу «Корпоративный сайт»:',
+    corpService1: 'UX/UI-дизайн в корпоративном стиле',
+    corpService2: 'Разработка CMS-модуля',
+    corpService3: 'Многоуровневое меню',
+    corpService4: 'Галерея проектов с фильтрацией',
+    corpService5: 'Блог-система с категориями',
+    corpService6: 'Контактные формы с валидацией',
+    corpService7: 'Интеграция Google Maps',
+    corpService8: 'Базовая SEO-оптимизация',
+    corpService9: 'Адаптация под мобильные устройства',
+    corpService10: 'Тестирование и запуск',
+    corpService11: 'Передача проекта и 14 дней поддержки',
+    corpConclusion: 'Готовы начать? Закажите сейчас и получите сайт за 2 недели!',
 
     // Project Description
     projectDescription: 'Описание проекта',
