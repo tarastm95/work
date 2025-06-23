@@ -480,6 +480,30 @@ const translations = {
     eduService12: 'Постійні оновлення, резервні копії та підтримка',
     eduConclusion: 'Готові зробити ривок у навчанні? Замовляйте платформу вже сьогодні та отримайте рішення під ключ.',
 
+    // Landing Page Advantages
+    lpBenefitsTitle: 'Переваги ефективної Landing Page для вашого бізнесу',
+    lpBenefit1: 'Максимальна фокусованість на конверсії: лаконічний дизайн і чіткі CTA ведуть користувача до замовлення.',
+    lpBenefit2: 'Швидкий запуск і гнучкість: готова сторінка «під ключ» за 7 днів, легко оновити контент.',
+    lpBenefit3: 'Оптимізація швидкості: завантаження до 3 секунд покращує задоволеність та SEO.',
+    lpBenefit4: 'Мобільна адаптивність: відмінний вигляд і зручність на всіх пристроях.',
+    lpBenefit5: 'Інтеграція з бізнес-інструментами: CRM, чат-боти та сервіси розсилок.',
+    lpBenefit6: 'Аналітика та тестування: A/B-тести й воронка конверсій у реальному часі.',
+    lpBenefit7: 'Економія бюджету: SPA-підхід дешевший у розробці та підтримці.',
+    lpBenefit8: 'Психологія продажу: перевірені UX/UI патерни знижують «страх» покупки.',
+
+    lpServiceTitle: 'Що входить у нашу послугу “Landing Page”:',
+    lpService1: 'Індивідуальний дизайн відповідно до вашого бренду та цільової аудиторії',
+    lpService2: 'Оптимізація швидкості (завантаження сторінки до 3 сек)',
+    lpService3: 'Розробка форми збору контактів з валідацією та захистом від спаму',
+    lpService4: 'Інтеграція з CRM (Bitrix24, amoCRM, HubSpot тощо) для автоматичної передачі лідів',
+    lpService5: 'Налаштування A/B-тестування ключових елементів (заголовки, CTA, зображення)',
+    lpService6: 'Підключення аналітики (Google Analytics, Google Tag Manager, Hotjar) для моніторингу конверсій',
+    lpService7: 'Додаткові скрипти: чат-бот підтримка (Telegram, Facebook Messenger, власний)',
+    lpService8: 'SEO-базова оптимізація: семантична розмітка, швидкі метадані, дружні URL',
+    lpService9: 'Тестування та контроль якості на різних браузерах і пристроях',
+    lpService10: 'Передача проекту та інструкція по роботі з контентом для вашої команди',
+    lpConclusion: 'З такими інструментами й підходом ви отримаєте віддачу понад 28 % конверсії і швидкий вихід у «плюс» уже в перші тижні після запуску.',
+
     // Project Description
     projectDescription: 'Опис проекту',
     technologies: 'Технології',
@@ -957,6 +981,30 @@ const translations = {
     eduService12: 'Continuous updates, backups and support',
     eduConclusion: 'Ready to boost your online course? Order now and get a complete turnkey solution.',
 
+    // Landing Page Advantages
+    lpBenefitsTitle: 'Benefits of an effective Landing Page for your business',
+    lpBenefit1: 'Maximized conversion focus: concise design and clear CTAs drive users to order.',
+    lpBenefit2: 'Fast launch and flexibility: a turnkey page in 7 days with easy content updates.',
+    lpBenefit3: 'Speed optimization: loading in under 3 seconds improves satisfaction and SEO.',
+    lpBenefit4: 'Mobile responsiveness: perfect look and usability on any device.',
+    lpBenefit5: 'Integration with business tools: CRM, chatbots and mailing services.',
+    lpBenefit6: 'Analytics and testing: A/B tests and conversion funnels in real time.',
+    lpBenefit7: 'Budget saving: simple SPA approach is cheaper to develop and maintain.',
+    lpBenefit8: 'Sales psychology: proven UX/UI patterns reduce purchase anxiety.',
+
+    lpServiceTitle: 'What our “Landing Page” service includes:',
+    lpService1: 'Custom design tailored to your brand and target audience',
+    lpService2: 'Speed optimization (page loads in up to 3 sec)',
+    lpService3: 'Contact form development with validation and spam protection',
+    lpService4: 'CRM integration (Bitrix24, amoCRM, HubSpot, etc.) for automatic lead transfer',
+    lpService5: 'A/B testing setup for key elements (headlines, CTAs, images)',
+    lpService6: 'Analytics integration (Google Analytics, Google Tag Manager, Hotjar) to track conversions',
+    lpService7: 'Additional scripts: chatbot support (Telegram, Facebook Messenger, custom)',
+    lpService8: 'Basic SEO: semantic markup, meta tags, friendly URLs',
+    lpService9: 'Testing and quality assurance across browsers and devices',
+    lpService10: 'Project handover and content management guidelines for your team',
+    lpConclusion: 'With these tools and approach you can achieve over 28% conversion and reach profitability within the first weeks after launch.',
+
     // Project Description
     projectDescription: 'Project Description',
     technologies: 'Technologies',
@@ -1433,6 +1481,30 @@ const translations = {
     eduService11: 'Нагрузочные и SEO-тесты с рекомендациями',
     eduService12: 'Регулярные обновления, бэкапы и поддержка',
     eduConclusion: 'Готовы вывести свой онлайн-курс на новый уровень? Закажите сейчас и получите решение «под ключ».',
+
+    // Landing Page Advantages
+    lpBenefitsTitle: 'Преимущества эффективной Landing Page для вашего бизнеса',
+    lpBenefit1: 'Максимальная фокусировка на конверсии: лаконичный дизайн и четкие CTA ведут пользователя к заказу.',
+    lpBenefit2: 'Быстрый запуск и гибкость: готовая страница «под ключ» за 7 дней, легко обновлять контент.',
+    lpBenefit3: 'Оптимизация скорости: загрузка до 3 секунд повышает удовлетворенность и улучшает SEO.',
+    lpBenefit4: 'Мобильная адаптивность: отличный вид и удобство на любых устройствах.',
+    lpBenefit5: 'Интеграция с бизнес-инструментами: CRM, чат-боты и рассылки.',
+    lpBenefit6: 'Аналитика и тестирование: A/B-тесты и воронка конверсий в реальном времени.',
+    lpBenefit7: 'Экономия бюджета: SPA-подход дешевле в разработке и поддержке.',
+    lpBenefit8: 'Психология продаж: проверенные UX/UI паттерны снижают страх покупки.',
+
+    lpServiceTitle: 'Что входит в нашу услугу «Landing Page»:',
+    lpService1: 'Индивидуальный дизайн под ваш бренд и целевую аудиторию',
+    lpService2: 'Оптимизация скорости (загрузка страницы до 3 сек)',
+    lpService3: 'Разработка формы сбора контактов с валидацией и защитой от спама',
+    lpService4: 'Интеграция с CRM (Bitrix24, amoCRM, HubSpot и др.) для автоматической передачи лидов',
+    lpService5: 'Настройка A/B-тестирования ключевых элементов (заголовки, CTA, изображения)',
+    lpService6: 'Подключение аналитики (Google Analytics, Google Tag Manager, Hotjar) для отслеживания конверсий',
+    lpService7: 'Дополнительные скрипты: поддержка чат-бота (Telegram, Facebook Messenger, собственный)',
+    lpService8: 'Базовая SEO-оптимизация: семантическая разметка, метаданные, дружественные URL',
+    lpService9: 'Тестирование и контроль качества в разных браузерах и на устройствах',
+    lpService10: 'Передача проекта и инструкция по работе с контентом для вашей команды',
+    lpConclusion: 'С такими инструментами и подходом вы получите более 28% конверсии и быстрый выход в плюс уже в первые недели после запуска.',
 
     // Project Description
     projectDescription: 'Описание проекта',
