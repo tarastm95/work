@@ -440,7 +440,7 @@ const translations = {
     caBenefit4: 'Підтримка кількох мов. Налаштування бот-скриптів українською, англійською, російською та іншими мовами під вашу аудиторію.',
     caBenefit5: 'Аналітика та звітність. Детальна статистика запитів: найчастіші питання, час реакції, конверсія – усе в єдиному інтерфейсі.',
     caBenefit6: 'Інтуїтивне налаштування сценаріїв. Візуальний конструктор діалогів, гнучкі умови переходів, змінні та шаблони відповідей – без програмування.',
-    caConclusion: 'Наші результати: 60+ завершених проєктів, 90% середня конверсія, 25 днів середній час розробки. Готові підвищити лояльність клієнтів і автоматизувати обробку звернень? Замовте AI-чат-агента вже сьогодні та отримайте готове рішення за 22 500 ₴!',
+    caConclusion: 'Наші результати: 60+ завершених проєктів, 90% середня конверсія, 25 днів середній час розробки. Готові підвищити лояльність клієнтів і автоматизувати обробку звернень?',
 
     // Recommendation Agent Benefits
     raBenefitsTitle: 'Переваги Рекомендаційного агента для вашого бізнесу:',
@@ -1071,7 +1071,7 @@ const translations = {
     caBenefit4: 'Multiple language support',
     caBenefit5: 'Analytics and reporting',
     caBenefit6: 'Intuitive scenario setup',
-    caConclusion: 'Our results: 60+ completed projects, 90% average conversion, 25 days average development time. Ready to increase customer loyalty and automate inquiries? Order the AI Chat Agent today and get a complete solution for 22,500 ₴!',
+    caConclusion: 'Our results: 60+ completed projects, 90% average conversion, 25 days average development time. Ready to increase customer loyalty and automate inquiries?',
 
     // Recommendation Agent Benefits
     raBenefitsTitle: 'Benefits of the Recommendation Agent for your business:',
@@ -1702,7 +1702,7 @@ const translations = {
     caBenefit4: 'Поддержка нескольких языков',
     caBenefit5: 'Аналитика и отчётность',
     caBenefit6: 'Интуитивная настройка сценариев',
-    caConclusion: 'Наши результаты: 60+ завершенных проектов, 90% средняя конверсия, 25 дней средний срок разработки. Готовы повысить лояльность клиентов и автоматизировать обработку обращений? Закажите AI-чат-агента уже сегодня и получите готовое решение за 22 500 ₴!',
+    caConclusion: 'Наши результаты: 60+ завершенных проектов, 90% средняя конверсия, 25 дней средний срок разработки. Готовы повысить лояльность клиентов и автоматизировать обработку обращений?',
 
     // Recommendation Agent Benefits
     raBenefitsTitle: 'Преимущества Рекомендательного агента для вашего бизнеса:',
