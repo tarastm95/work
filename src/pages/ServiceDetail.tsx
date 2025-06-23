@@ -664,6 +664,9 @@ const ServiceDetail: React.FC = () => {
                       </li>
                     ))}
                   </ul>
+                  <p className="text-gray-300 mt-8 text-center">
+                    {t('caConclusion')}
+                  </p>
                 </div>
               )}
 
