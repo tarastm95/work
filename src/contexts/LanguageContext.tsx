@@ -441,11 +441,6 @@ const translations = {
     caBenefit5: 'Аналітика та звітність. Детальна статистика запитів: найчастіші питання, час реакції, конверсія – усе в єдиному інтерфейсі.',
     caBenefit6: 'Інтуїтивне налаштування сценаріїв. Візуальний конструктор діалогів, гнучкі умови переходів, змінні та шаблони відповідей – без програмування.',
     caConclusion: 'Наші результати: 60+ завершених проєктів, 90% середня конверсія, 25 днів середній час розробки. Готові підвищити лояльність клієнтів і автоматизувати обробку звернень?',
-    chatDemoTitle: 'Демо чат-агента',
-    chatDemoPlaceholder: 'Введіть повідомлення...',
-    chatDemoSend: 'Надіслати',
-    chatDemoWelcome: 'Привіт! Я демо чат-агент. Спробуйте поставити запитання.',
-    chatDemoReply: 'Це приклад автоматичної відповіді.',
 
     // Recommendation Agent Benefits
     raBenefitsTitle: 'Переваги Рекомендаційного агента для вашого бізнесу:',
@@ -1077,11 +1072,6 @@ const translations = {
     caBenefit5: 'Analytics and reporting',
     caBenefit6: 'Intuitive scenario setup',
     caConclusion: 'Our results: 60+ completed projects, 90% average conversion, 25 days average development time. Ready to increase customer loyalty and automate inquiries?',
-    chatDemoTitle: 'Chat Agent Demo',
-    chatDemoPlaceholder: 'Type a message...',
-    chatDemoSend: 'Send',
-    chatDemoWelcome: 'Hi! I am a demo chat agent. Ask me anything.',
-    chatDemoReply: 'This is a sample automated reply.',
 
     // Recommendation Agent Benefits
     raBenefitsTitle: 'Benefits of the Recommendation Agent for your business:',
@@ -1713,11 +1703,6 @@ const translations = {
     caBenefit5: 'Аналитика и отчётность',
     caBenefit6: 'Интуитивная настройка сценариев',
     caConclusion: 'Наши результаты: 60+ завершенных проектов, 90% средняя конверсия, 25 дней средний срок разработки. Готовы повысить лояльность клиентов и автоматизировать обработку обращений?',
-    chatDemoTitle: 'Демо чат-агента',
-    chatDemoPlaceholder: 'Введите сообщение...',
-    chatDemoSend: 'Отправить',
-    chatDemoWelcome: 'Привет! Я демо чат-агент. Спросите меня что-нибудь.',
-    chatDemoReply: 'Это пример автоматического ответа.',
 
     // Recommendation Agent Benefits
     raBenefitsTitle: 'Преимущества Рекомендательного агента для вашего бизнеса:',

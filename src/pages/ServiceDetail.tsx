@@ -6,7 +6,6 @@ import { useLanguage } from '../contexts/LanguageContext';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { ArrowLeft, CheckCircle, Star, Clock, Users, Zap } from 'lucide-react';
-import ChatBotDemo from '../components/ChatBotDemo';
 
 const ServiceDetail: React.FC = () => {
   const { serviceId } = useParams<{ serviceId: string }>();
@@ -670,7 +669,6 @@ const ServiceDetail: React.FC = () => {
                       {t('caConclusion')}
                     </p>
                   </div>
-                  <ChatBotDemo />
                 </div>
               )}
 
