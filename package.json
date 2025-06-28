@@ -12,7 +12,8 @@
     "preview": "vite preview"
   },
   "reactSnap": {
-    "include": ["/", "/service/ecommerce", "/service/educational"]
+    "include": ["/", "/service/ecommerce", "/service/educational"],
+    "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"]
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
