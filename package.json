@@ -12,6 +12,7 @@
     "preview": "vite preview"
   },
   "reactSnap": {
+    "source": "dist",
     "include": ["/", "/service/ecommerce", "/service/educational"],
     "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"]
   },
